@@ -1,0 +1,1241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{12F9EC3F-2FAD-4763-9347-8A79713251C9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WiseThink.NTCA.Web</RootNamespace>
+    <AssemblyName>WiseThink.NTCA.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.5.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\Binaries\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Binaries\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="pdfcrowd, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\pdfcrowd.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\add-User.aspx" />
+    <Content Include="Admin\Alerts.aspx" />
+    <Content Include="Admin\AuditTrail.aspx" />
+    <Content Include="Admin\EditStateMaster.aspx" />
+    <Content Include="Admin\EditTigerReserve.aspx" />
+    <Content Include="Admin\Home.aspx" />
+    <Content Include="Admin\LoginHistory.aspx" />
+    <Content Include="Admin\ManageActivities.aspx" />
+    <Content Include="Admin\ManageDesignation.aspx" />
+    <Content Include="Admin\ManageHead.aspx" />
+    <Content Include="Admin\ManageObligations.aspx" />
+    <Content Include="Admin\SendAlert.aspx" />
+    <Content Include="Admin\StateMaster.aspx" />
+    <Content Include="Admin\TigerReserve.aspx" />
+    <Content Include="Admin\Users.aspx" />
+    <Content Include="App_Themes\Theme1\b-checkbox.css" />
+    <Content Include="App_Themes\Theme1\img\checkbox.png" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\pdfcrowd.dll" />
+    <Content Include="CaptchaImage\JpegImage.aspx" />
+    <Content Include="ChangePassword.aspx" />
+    <Content Include="CreatePassword.aspx" />
+    <Content Include="css\bootstrap-responsive.css" />
+    <Content Include="css\bootstrap-responsive.min.css" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\GridviewScroll.css" />
+    <Content Include="css\images\checkbox.png" />
+    <Content Include="css\jquery.datepick.css" />
+    <Content Include="css\jquery.tooltip.css" />
+    <Content Include="css\lists.css" />
+    <Content Include="css\MyBootstrap.css" />
+    <Content Include="css\mybootstrap2.css" />
+    <Content Include="css\responsive-calendar.css" />
+    <Content Include="css\sparkbox-select.css" />
+    <Content Include="css\Style.css" />
+    <Content Include="CWW-Secretary\Alerts.aspx" />
+    <Content Include="CWW-Secretary\ApproveAPO.aspx" />
+    <Content Include="CWW-Secretary\CWWFeedbackMOU.aspx" />
+    <Content Include="CWW-Secretary\EditApo.aspx" />
+    <Content Include="CWW-Secretary\Home.aspx" />
+    <Content Include="CWW-Secretary\MonitoringCentral-StateShare.aspx" />
+    <Content Include="CWW-Secretary\ObligationCWW.aspx" />
+    <Content Include="CWW-Secretary\ReportList.aspx" />
+    <Content Include="CWW-Secretary\SendAlert.aspx" />
+    <Content Include="CWW-Secretary\UpdateAPOStatus.aspx" />
+    <Content Include="CWW-Secretary\ViewAPO.aspx" />
+    <Content Include="CWW-Secretary\ViewCheckList.aspx" />
+    <Content Include="CWW-Secretary\ViewFieldDirectorObligations.aspx" />
+    <Content Include="CWW-Secretary\ViewQuarterlyReport.aspx" />
+    <Content Include="CWW-Secretary\ViewTigerReserveDetails.aspx" />
+    <Content Include="CWW-Secretary\ViewUtilizationCertificate.aspx" />
+    <Content Include="data_uploader.aspx" />
+    <Content Include="EditProfile.aspx" />
+    <Content Include="EmailTemplates\DefaultPassword.htm" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="FieldDirector\AdditionalAPO.aspx" />
+    <Content Include="FieldDirector\CheckList.aspx" />
+    <Content Include="FieldDirector\Download.aspx" />
+    <Content Include="FieldDirector\DownloadActivities.aspx" />
+    <Content Include="FieldDirector\DownloadActivityList.aspx" />
+    <Content Include="FieldDirector\DownloadExpendituresReport.aspx" />
+    <Content Include="FieldDirector\EditEcoDevelopment.aspx" />
+    <Content Include="FieldDirector\FDFeedbackMOU.aspx" />
+    <Content Include="FieldDirector\FDFlexiAmont.aspx" />
+    <Content Include="FieldDirector\FDUtilizationCertificate.aspx" />
+    <Content Include="FieldDirector\FieldDirectorAlerts.aspx" />
+    <Content Include="FieldDirector\FieldDirectorAPODueforSubmission.aspx" />
+    <Content Include="FieldDirector\FieldDirectorHome.aspx" />
+    <Content Include="FieldDirector\FieldDirectorSubmitReport.aspx" />
+    <Content Include="FieldDirector\ObligationFD.aspx" />
+    <Content Include="FieldDirector\RelevantAPODocuments.aspx" />
+    <Content Include="FieldDirector\SendAlert.aspx" />
+    <Content Include="FieldDirector\SettledUc.aspx" />
+    <Content Include="FieldDirector\Spillover.aspx" />
+    <Content Include="FieldDirector\SubmitAPO.aspx" />
+    <Content Include="FieldDirector\SubmitAPONew.aspx" />
+    <Content Include="FieldDirector\SubmitQuarterlyReport.aspx" />
+    <Content Include="FieldDirector\TigerReserveDetails.aspx" />
+    <Content Include="FieldDirector\UpdateAPOStatus.aspx" />
+    <Content Include="FieldDirector\ViewAPO.aspx" />
+    <Content Include="FieldDirector\ViewCheckList.aspx" />
+    <Content Include="FieldDirector\ViewEcoDevelopment.aspx" />
+    <Content Include="FieldDirector\ViewPfyAPO.aspx" />
+    <Content Include="FieldDirector\ViewTigerReserveDetails.aspx" />
+    <Content Include="FieldDirector\ViewUtilizationCertificate.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="ForgotPassword.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\arrow.gif" />
+    <Content Include="Images\arrow1.jpg" />
+    <Content Include="Images\arrow12.png" />
+    <Content Include="Images\arrowhl.png" />
+    <Content Include="Images\arrowhr.png" />
+    <Content Include="Images\arrowvb.png" />
+    <Content Include="Images\arrowvt.png" />
+    <Content Include="Images\bg-right-heading.jpg" />
+    <Content Include="Images\btn-print-hover.jpg" />
+    <Content Include="Images\btn-print.jpg" />
+    <Content Include="Images\btn-print.png" />
+    <Content Include="Images\callender.jpg" />
+    <Content Include="Images\captchya.jpg" />
+    <Content Include="Images\collapse.png" />
+    <Content Include="Images\copyright.gif" />
+    <Content Include="Images\delete.png" />
+    <Content Include="Images\Downloads.png" />
+    <Content Include="Images\earth-banner.jpg" />
+    <Content Include="Images\edit.png" />
+    <Content Include="Images\edit1.png" />
+    <Content Include="Images\elum.png" />
+    <Content Include="Images\Error.jpg" />
+    <Content Include="Images\expand.png" />
+    <Content Include="Images\GPS.jpg" />
+    <Content Include="Images\gps1.jpg" />
+    <Content Include="Images\loader2.gif" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\logotxt.png" />
+    <Content Include="Images\ManageActivites.jpg" />
+    <Content Include="Images\ManageStates.jpg" />
+    <Content Include="Images\manageTigerReserve.png" />
+    <Content Include="Images\manageTigerReserve1.png" />
+    <Content Include="Images\ManageUsers.png" />
+    <Content Include="Images\MangeStates.png" />
+    <Content Include="Images\MangeUsers.jpg" />
+    <Content Include="Images\minus.png" />
+    <Content Include="Images\plus.png" />
+    <Content Include="Images\Refresh.png" />
+    <Content Include="Images\remove.png" />
+    <Content Include="Images\sampleExcelIcon.jpg" />
+    <Content Include="Images\samplePDFIcon.jpg" />
+    <Content Include="Images\samplePDFIcon.png" />
+    <Content Include="Images\tree.png" />
+    <Content Include="Images\viewall.png" />
+    <Content Include="Images\warning.png" />
+    <Content Include="Images\Word-icon.png" />
+    <Content Include="js\blockUI.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\expand.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery-ui.min.js" />
+    <Content Include="js\jquery.crypt.js" />
+    <Content Include="js\jquery.datepick.js" />
+    <Content Include="js\jquery.sparkbox-select.js" />
+    <Content Include="js\jquery.tooltip.js" />
+    <Content Include="js\jQuery.WiseThink.Common.js" />
+    <Content Include="js\jquery1.10.2.js" />
+    <Content Include="css\images\animated-overlay.gif" />
+    <Content Include="css\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="css\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="css\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="css\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="css\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="css\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="css\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="css\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="css\images\ui-icons_222222_256x240.png" />
+    <Content Include="css\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="css\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="css\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="css\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="css\jquery-ui.css" />
+    <Content Include="css\jquery-ui.min.css" />
+    <Content Include="css\ValidationPopup.css" />
+    <Content Include="js\JQueryExtensions.js" />
+    <Content Include="js\jquerysession.js" />
+    <Content Include="js\modernizr-1.7.min.js" />
+    <Content Include="js\modernizr-2.6.2.js" />
+    <Content Include="js\MoES_Validations.js" />
+    <Content Include="js\NTCA.js" />
+    <Content Include="js\Remove.js" />
+    <Content Include="js\respond.js" />
+    <Content Include="js\respond.min.js" />
+    <Content Include="js\script.js" />
+    <Content Include="js\ScrollableGridPlugin.js" />
+    <Content Include="nocookie.htm" />
+    <Content Include="NTCA-RO\Alerts.aspx" />
+    <Content Include="NTCA-RO\ApoDueForSubmission.aspx" />
+    <Content Include="NTCA-RO\ApproveAPO.aspx" />
+    <Content Include="NTCA-RO\CWWFeedback.aspx" />
+    <Content Include="NTCA-RO\EditApoCopy.aspx" />
+    <Content Include="NTCA-RO\FDFeedback.aspx" />
+    <Content Include="NTCA-RO\FieldDirectorFeedback.aspx" />
+    <Content Include="NTCA-RO\GenerateNTCAReports.aspx" />
+    <Content Include="NTCA-RO\GenerateReports.aspx" />
+    <Content Include="NTCA-RO\Home.aspx" />
+    <Content Include="NTCA-RO\ListofReport.aspx" />
+    <Content Include="NTCA-RO\ManageGuideLines.aspx" />
+    <Content Include="NTCA-RO\ManageInstallment.aspx" />
+    <Content Include="NTCA-RO\ManageNonRecurringRecurringRatio.aspx" />
+    <Content Include="NTCA-RO\MonitoringCentral-StateShare.aspx" />
+    <Content Include="NTCA-RO\SendAlert.aspx" />
+    <Content Include="NTCA-RO\UpdateAPOStatus.aspx" />
+    <Content Include="NTCA-RO\ViewAPO.aspx" />
+    <Content Include="NTCA-RO\ViewCheckList.aspx" />
+    <Content Include="NTCA-RO\ViewCWWObligations.aspx" />
+    <Content Include="NTCA-RO\ViewFieldDirectorObligations.aspx" />
+    <Content Include="NTCA-RO\ViewQuarterlyReport.aspx" />
+    <Content Include="NTCA-RO\ViewTigerReserveDetails.aspx" />
+    <Content Include="NTCA-RO\ViewUtilizationCertificate.aspx" />
+    <Content Include="Scripts\knockout-3.2.0.debug.js" />
+    <Content Include="Scripts\knockout-3.2.0.js" />
+    <Content Include="SessionExpired.aspx" />
+    <Content Include="Upload\UC\Final\UC.jpg" />
+    <Content Include="Upload\UC\Provisional\Central Share 001.jpg" />
+    <Content Include="Upload\UC\Provisional\State Share 001.jpg" />
+    <Content Include="UserControls\BackButton.ascx" />
+    <Content Include="UserControls\EditProfile.ascx" />
+    <Content Include="UserControls\FilterReport.ascx" />
+    <Content Include="UserControls\ManageAllActivities.ascx" />
+    <Content Include="UserControls\NTCAFooter.ascx" />
+    <Content Include="UserControls\NTCAHeader.ascx" />
+    <Content Include="UserControls\PrintButton.ascx" />
+    <Content Include="UserControls\ShowGuidelines.ascx" />
+    <Content Include="UserControls\ValidationMessage.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Login.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\add-User.aspx.cs">
+      <DependentUpon>add-User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\add-User.aspx.designer.cs">
+      <DependentUpon>add-User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.master.cs">
+      <DependentUpon>Admin.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.master.designer.cs">
+      <DependentUpon>Admin.master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Alerts.aspx.cs">
+      <DependentUpon>Alerts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Alerts.aspx.designer.cs">
+      <DependentUpon>Alerts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AuditTrail.aspx.cs">
+      <DependentUpon>AuditTrail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AuditTrail.aspx.designer.cs">
+      <DependentUpon>AuditTrail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditStateMaster.aspx.cs">
+      <DependentUpon>EditStateMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditStateMaster.aspx.designer.cs">
+      <DependentUpon>EditStateMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\EditTigerReserve.aspx.cs">
+      <DependentUpon>EditTigerReserve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\EditTigerReserve.aspx.designer.cs">
+      <DependentUpon>EditTigerReserve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\LoginHistory.aspx.cs">
+      <DependentUpon>LoginHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\LoginHistory.aspx.designer.cs">
+      <DependentUpon>LoginHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageActivities.aspx.cs">
+      <DependentUpon>ManageActivities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageActivities.aspx.designer.cs">
+      <DependentUpon>ManageActivities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageDesignation.aspx.cs">
+      <DependentUpon>ManageDesignation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageDesignation.aspx.designer.cs">
+      <DependentUpon>ManageDesignation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageHead.aspx.cs">
+      <DependentUpon>ManageHead.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageHead.aspx.designer.cs">
+      <DependentUpon>ManageHead.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ManageObligations.aspx.cs">
+      <DependentUpon>ManageObligations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageObligations.aspx.designer.cs">
+      <DependentUpon>ManageObligations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SendAlert.aspx.cs">
+      <DependentUpon>SendAlert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SendAlert.aspx.designer.cs">
+      <DependentUpon>SendAlert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\StateMaster.aspx.cs">
+      <DependentUpon>StateMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\StateMaster.aspx.designer.cs">
+      <DependentUpon>StateMaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\TigerReserve.aspx.cs">
+      <DependentUpon>TigerReserve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\TigerReserve.aspx.designer.cs">
+      <DependentUpon>TigerReserve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AESEncrytDecry.cs" />
+    <Compile Include="App_Code\Constants.cs" />
+    <Compile Include="App_Code\FileUploadHandler.cs" />
+    <Compile Include="App_Code\FlashMessage.cs" />
+    <Compile Include="App_Code\MailManager.cs" />
+    <Compile Include="App_Code\MD5HASH.cs" />
+    <Compile Include="CaptchaImage\CaptchaImage.cs" />
+    <Compile Include="CaptchaImage\JpegImage.aspx.cs">
+      <DependentUpon>JpegImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaptchaImage\JpegImage.aspx.designer.cs">
+      <DependentUpon>JpegImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreatePassword.aspx.cs">
+      <DependentUpon>CreatePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreatePassword.aspx.designer.cs">
+      <DependentUpon>CreatePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\Alerts.aspx.cs">
+      <DependentUpon>Alerts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\Alerts.aspx.designer.cs">
+      <DependentUpon>Alerts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\ApproveAPO.aspx.cs">
+      <DependentUpon>ApproveAPO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\ApproveAPO.aspx.designer.cs">
+      <DependentUpon>ApproveAPO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\CWW-Secretary.master.cs">
+      <DependentUpon>CWW-Secretary.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\CWW-Secretary.master.designer.cs">
+      <DependentUpon>CWW-Secretary.master</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\CWWFeedbackMOU.aspx.cs">
+      <DependentUpon>CWWFeedbackMOU.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\CWWFeedbackMOU.aspx.designer.cs">
+      <DependentUpon>CWWFeedbackMOU.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\EditApo.aspx.cs">
+      <DependentUpon>EditApo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\EditApo.aspx.designer.cs">
+      <DependentUpon>EditApo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\MonitoringCentral-StateShare.aspx.cs">
+      <DependentUpon>MonitoringCentral-StateShare.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\MonitoringCentral-StateShare.aspx.designer.cs">
+      <DependentUpon>MonitoringCentral-StateShare.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\ObligationCWW.aspx.cs">
+      <DependentUpon>ObligationCWW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\ObligationCWW.aspx.designer.cs">
+      <DependentUpon>ObligationCWW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\ReportList.aspx.cs">
+      <DependentUpon>ReportList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\ReportList.aspx.designer.cs">
+      <DependentUpon>ReportList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\SendAlert.aspx.cs">
+      <DependentUpon>SendAlert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\SendAlert.aspx.designer.cs">
+      <DependentUpon>SendAlert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\UpdateAPOStatus.aspx.cs">
+      <DependentUpon>UpdateAPOStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\UpdateAPOStatus.aspx.designer.cs">
+      <DependentUpon>UpdateAPOStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\ViewAPO.aspx.cs">
+      <DependentUpon>ViewAPO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\ViewAPO.aspx.designer.cs">
+      <DependentUpon>ViewAPO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\ViewCheckList.aspx.cs">
+      <DependentUpon>ViewCheckList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\ViewCheckList.aspx.designer.cs">
+      <DependentUpon>ViewCheckList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\ViewFieldDirectorObligations.aspx.cs">
+      <DependentUpon>ViewFieldDirectorObligations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\ViewFieldDirectorObligations.aspx.designer.cs">
+      <DependentUpon>ViewFieldDirectorObligations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\ViewQuarterlyReport.aspx.cs">
+      <DependentUpon>ViewQuarterlyReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\ViewQuarterlyReport.aspx.designer.cs">
+      <DependentUpon>ViewQuarterlyReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\ViewTigerReserveDetails.aspx.cs">
+      <DependentUpon>ViewTigerReserveDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\ViewTigerReserveDetails.aspx.designer.cs">
+      <DependentUpon>ViewTigerReserveDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CWW-Secretary\ViewUtilizationCertificate.aspx.cs">
+      <DependentUpon>ViewUtilizationCertificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CWW-Secretary\ViewUtilizationCertificate.aspx.designer.cs">
+      <DependentUpon>ViewUtilizationCertificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="data_uploader.aspx.cs">
+      <DependentUpon>data_uploader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="data_uploader.aspx.designer.cs">
+      <DependentUpon>data_uploader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditProfile.aspx.cs">
+      <DependentUpon>EditProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditProfile.aspx.designer.cs">
+      <DependentUpon>EditProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\AdditionalAPO.aspx.cs">
+      <DependentUpon>AdditionalAPO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\AdditionalAPO.aspx.designer.cs">
+      <DependentUpon>AdditionalAPO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\CheckList.aspx.cs">
+      <DependentUpon>CheckList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\CheckList.aspx.designer.cs">
+      <DependentUpon>CheckList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\Download.aspx.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\Download.aspx.designer.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\DownloadActivities.aspx.cs">
+      <DependentUpon>DownloadActivities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\DownloadActivities.aspx.designer.cs">
+      <DependentUpon>DownloadActivities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\DownloadActivityList.aspx.cs">
+      <DependentUpon>DownloadActivityList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\DownloadActivityList.aspx.designer.cs">
+      <DependentUpon>DownloadActivityList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\DownloadExpendituresReport.aspx.cs">
+      <DependentUpon>DownloadExpendituresReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\DownloadExpendituresReport.aspx.designer.cs">
+      <DependentUpon>DownloadExpendituresReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\EditEcoDevelopment.aspx.cs">
+      <DependentUpon>EditEcoDevelopment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\EditEcoDevelopment.aspx.designer.cs">
+      <DependentUpon>EditEcoDevelopment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\FDFeedbackMOU.aspx.cs">
+      <DependentUpon>FDFeedbackMOU.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\FDFeedbackMOU.aspx.designer.cs">
+      <DependentUpon>FDFeedbackMOU.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\FDFlexiAmont.aspx.cs">
+      <DependentUpon>FDFlexiAmont.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\FDFlexiAmont.aspx.designer.cs">
+      <DependentUpon>FDFlexiAmont.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\FDUtilizationCertificate.aspx.cs">
+      <DependentUpon>FDUtilizationCertificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\FDUtilizationCertificate.aspx.designer.cs">
+      <DependentUpon>FDUtilizationCertificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\FieldDirector.Master.cs">
+      <DependentUpon>FieldDirector.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\FieldDirector.Master.designer.cs">
+      <DependentUpon>FieldDirector.Master</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\FieldDirectorAlerts.aspx.cs">
+      <DependentUpon>FieldDirectorAlerts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\FieldDirectorAlerts.aspx.designer.cs">
+      <DependentUpon>FieldDirectorAlerts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\FieldDirectorAPODueforSubmission.aspx.cs">
+      <DependentUpon>FieldDirectorAPODueforSubmission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\FieldDirectorAPODueforSubmission.aspx.designer.cs">
+      <DependentUpon>FieldDirectorAPODueforSubmission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\FieldDirectorHome.aspx.cs">
+      <DependentUpon>FieldDirectorHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\FieldDirectorHome.aspx.designer.cs">
+      <DependentUpon>FieldDirectorHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\FieldDirectorSubmitReport.aspx.cs">
+      <DependentUpon>FieldDirectorSubmitReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\FieldDirectorSubmitReport.aspx.designer.cs">
+      <DependentUpon>FieldDirectorSubmitReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\FileUploader.ashx.cs">
+      <DependentUpon>FileUploader.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\ObligationFD.aspx.cs">
+      <DependentUpon>ObligationFD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\ObligationFD.aspx.designer.cs">
+      <DependentUpon>ObligationFD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\RelevantAPODocuments.aspx.cs">
+      <DependentUpon>RelevantAPODocuments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\RelevantAPODocuments.aspx.designer.cs">
+      <DependentUpon>RelevantAPODocuments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\SendAlert.aspx.cs">
+      <DependentUpon>SendAlert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\SendAlert.aspx.designer.cs">
+      <DependentUpon>SendAlert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\SettledUc.aspx.cs">
+      <DependentUpon>SettledUc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\SettledUc.aspx.designer.cs">
+      <DependentUpon>SettledUc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\Spillover.aspx.cs">
+      <DependentUpon>Spillover.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\Spillover.aspx.designer.cs">
+      <DependentUpon>Spillover.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\SubmitAPO.aspx.cs">
+      <DependentUpon>SubmitAPO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\SubmitAPO.aspx.designer.cs">
+      <DependentUpon>SubmitAPO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\SubmitAPONew.aspx.cs">
+      <DependentUpon>SubmitAPONew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\SubmitAPONew.aspx.designer.cs">
+      <DependentUpon>SubmitAPONew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\SubmitQuarterlyReport.aspx.cs">
+      <DependentUpon>SubmitQuarterlyReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\SubmitQuarterlyReport.aspx.designer.cs">
+      <DependentUpon>SubmitQuarterlyReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\TigerReserveDetails.aspx.cs">
+      <DependentUpon>TigerReserveDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\TigerReserveDetails.aspx.designer.cs">
+      <DependentUpon>TigerReserveDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\UpdateAPOStatus.aspx.cs">
+      <DependentUpon>UpdateAPOStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\UpdateAPOStatus.aspx.designer.cs">
+      <DependentUpon>UpdateAPOStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\ViewAPO.aspx.cs">
+      <DependentUpon>ViewAPO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\ViewAPO.aspx.designer.cs">
+      <DependentUpon>ViewAPO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\ViewCheckList.aspx.cs">
+      <DependentUpon>ViewCheckList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\ViewCheckList.aspx.designer.cs">
+      <DependentUpon>ViewCheckList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\ViewEcoDevelopment.aspx.cs">
+      <DependentUpon>ViewEcoDevelopment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\ViewEcoDevelopment.aspx.designer.cs">
+      <DependentUpon>ViewEcoDevelopment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\ViewPfyAPO.aspx.cs">
+      <DependentUpon>ViewPfyAPO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\ViewPfyAPO.aspx.designer.cs">
+      <DependentUpon>ViewPfyAPO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\ViewTigerReserveDetails.aspx.cs">
+      <DependentUpon>ViewTigerReserveDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\ViewTigerReserveDetails.aspx.designer.cs">
+      <DependentUpon>ViewTigerReserveDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FieldDirector\ViewUtilizationCertificate.aspx.cs">
+      <DependentUpon>ViewUtilizationCertificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FieldDirector\ViewUtilizationCertificate.aspx.designer.cs">
+      <DependentUpon>ViewUtilizationCertificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="fileUploader.ashx.cs">
+      <DependentUpon>fileUploader.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HTMLControl.cs" />
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\Alerts.aspx.cs">
+      <DependentUpon>Alerts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\Alerts.aspx.designer.cs">
+      <DependentUpon>Alerts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\ApoDueForSubmission.aspx.cs">
+      <DependentUpon>ApoDueForSubmission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\ApoDueForSubmission.aspx.designer.cs">
+      <DependentUpon>ApoDueForSubmission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\ApproveAPO.aspx.cs">
+      <DependentUpon>ApproveAPO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\ApproveAPO.aspx.designer.cs">
+      <DependentUpon>ApproveAPO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\CWWFeedback.aspx.cs">
+      <DependentUpon>CWWFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\CWWFeedback.aspx.designer.cs">
+      <DependentUpon>CWWFeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\EditApoCopy.aspx.cs">
+      <DependentUpon>EditApoCopy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\EditApoCopy.aspx.designer.cs">
+      <DependentUpon>EditApoCopy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\FDFeedback.aspx.cs">
+      <DependentUpon>FDFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\FDFeedback.aspx.designer.cs">
+      <DependentUpon>FDFeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\FieldDirectorFeedback.aspx.cs">
+      <DependentUpon>FieldDirectorFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\FieldDirectorFeedback.aspx.designer.cs">
+      <DependentUpon>FieldDirectorFeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\GenerateNTCAReports.aspx.cs">
+      <DependentUpon>GenerateNTCAReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\GenerateNTCAReports.aspx.designer.cs">
+      <DependentUpon>GenerateNTCAReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\GenerateReports.aspx.cs">
+      <DependentUpon>GenerateReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\GenerateReports.aspx.designer.cs">
+      <DependentUpon>GenerateReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\ListofReport.aspx.cs">
+      <DependentUpon>ListofReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\ListofReport.aspx.designer.cs">
+      <DependentUpon>ListofReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\ManageGuideLines.aspx.cs">
+      <DependentUpon>ManageGuideLines.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\ManageGuideLines.aspx.designer.cs">
+      <DependentUpon>ManageGuideLines.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\ManageInstallment.aspx.cs">
+      <DependentUpon>ManageInstallment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\ManageInstallment.aspx.designer.cs">
+      <DependentUpon>ManageInstallment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\ManageNonRecurringRecurringRatio.aspx.cs">
+      <DependentUpon>ManageNonRecurringRecurringRatio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\ManageNonRecurringRecurringRatio.aspx.designer.cs">
+      <DependentUpon>ManageNonRecurringRecurringRatio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\MonitoringCentral-StateShare.aspx.cs">
+      <DependentUpon>MonitoringCentral-StateShare.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\MonitoringCentral-StateShare.aspx.designer.cs">
+      <DependentUpon>MonitoringCentral-StateShare.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\NTCA-RO.master.cs">
+      <DependentUpon>NTCA-RO.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\NTCA-RO.master.designer.cs">
+      <DependentUpon>NTCA-RO.master</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\SendAlert.aspx.cs">
+      <DependentUpon>SendAlert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\SendAlert.aspx.designer.cs">
+      <DependentUpon>SendAlert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\UpdateAPOStatus.aspx.cs">
+      <DependentUpon>UpdateAPOStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\UpdateAPOStatus.aspx.designer.cs">
+      <DependentUpon>UpdateAPOStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\ViewAPO.aspx.cs">
+      <DependentUpon>ViewAPO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\ViewAPO.aspx.designer.cs">
+      <DependentUpon>ViewAPO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\ViewCheckList.aspx.cs">
+      <DependentUpon>ViewCheckList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\ViewCheckList.aspx.designer.cs">
+      <DependentUpon>ViewCheckList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\ViewCWWObligations.aspx.cs">
+      <DependentUpon>ViewCWWObligations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\ViewCWWObligations.aspx.designer.cs">
+      <DependentUpon>ViewCWWObligations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\ViewFieldDirectorObligations.aspx.cs">
+      <DependentUpon>ViewFieldDirectorObligations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\ViewFieldDirectorObligations.aspx.designer.cs">
+      <DependentUpon>ViewFieldDirectorObligations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\ViewQuarterlyReport.aspx.cs">
+      <DependentUpon>ViewQuarterlyReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\ViewQuarterlyReport.aspx.designer.cs">
+      <DependentUpon>ViewQuarterlyReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\ViewTigerReserveDetails.aspx.cs">
+      <DependentUpon>ViewTigerReserveDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\ViewTigerReserveDetails.aspx.designer.cs">
+      <DependentUpon>ViewTigerReserveDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NTCA-RO\ViewUtilizationCertificate.aspx.cs">
+      <DependentUpon>ViewUtilizationCertificate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NTCA-RO\ViewUtilizationCertificate.aspx.designer.cs">
+      <DependentUpon>ViewUtilizationCertificate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Secure.Master.cs">
+      <DependentUpon>Secure.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Secure.Master.designer.cs">
+      <DependentUpon>Secure.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SessionExpired.aspx.cs">
+      <DependentUpon>SessionExpired.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SessionExpired.aspx.designer.cs">
+      <DependentUpon>SessionExpired.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="uploader.ashx.cs">
+      <DependentUpon>uploader.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\BackButton.ascx.cs">
+      <DependentUpon>BackButton.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\BackButton.ascx.designer.cs">
+      <DependentUpon>BackButton.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\EditProfile.ascx.cs">
+      <DependentUpon>EditProfile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\EditProfile.ascx.designer.cs">
+      <DependentUpon>EditProfile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\FilterReport.ascx.cs">
+      <DependentUpon>FilterReport.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\FilterReport.ascx.designer.cs">
+      <DependentUpon>FilterReport.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ManageAllActivities.ascx.cs">
+      <DependentUpon>ManageAllActivities.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ManageAllActivities.ascx.designer.cs">
+      <DependentUpon>ManageAllActivities.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NTCAFooter.ascx.cs">
+      <DependentUpon>NTCAFooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\NTCAFooter.ascx.designer.cs">
+      <DependentUpon>NTCAFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NTCAHeader.ascx.cs">
+      <DependentUpon>NTCAHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\NTCAHeader.ascx.designer.cs">
+      <DependentUpon>NTCAHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PrintButton.ascx.cs">
+      <DependentUpon>PrintButton.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\PrintButton.ascx.designer.cs">
+      <DependentUpon>PrintButton.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ShowGuidelines.ascx.cs">
+      <DependentUpon>ShowGuidelines.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ShowGuidelines.ascx.designer.cs">
+      <DependentUpon>ShowGuidelines.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ValidationMessage.ascx.cs">
+      <DependentUpon>ValidationMessage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ValidationMessage.ascx.designer.cs">
+      <DependentUpon>ValidationMessage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Downloads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Log4Net.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\WiseThink.NTCA.BAL\WiseThink.NTCA.BAL.csproj">
+      <Project>{56894D5F-CE4F-4EF1-B26F-F604D4E26270}</Project>
+      <Name>WiseThink.NTCA.BAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WiseThink.NTCA.DataEntity\WiseThink.NTCA.DataEntity.csproj">
+      <Project>{5AD5F0D5-FCD3-47AD-AE1B-10EBB515B644}</Project>
+      <Name>WiseThink.NTCA.DataEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WiseThink.Scheduler\WiseThink.Scheduler.csproj">
+      <Project>{8DF19B57-40FF-4274-8639-0A8D0A71C0EF}</Project>
+      <Name>WiseThink.Scheduler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Notifications\Notifications.csproj">
+      <Project>{7919089F-FF8E-44A7-A348-3C55B3B4EA6C}</Project>
+      <Name>Notifications</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Admin.master" />
+    <None Include="css\bootstrap-theme.css.map" />
+    <None Include="css\bootstrap.css.map" />
+    <Content Include="FieldDirector\FieldDirector.Master" />
+    <Content Include="CWW-Secretary\CWW-Secretary.master" />
+    <Content Include="fileUploader.ashx" />
+    <Content Include="FieldDirector\FileUploader.ashx" />
+    <None Include="fonts\fontawesome-webfont.eot" />
+    <None Include="fonts\fontawesome-webfont.ttf" />
+    <None Include="fonts\fontawesome-webfont.woff" />
+    <None Include="fonts\FontAwesome.otf" />
+    <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Main.Master" />
+    <Content Include="Site.Master" />
+    <Content Include="packages.config" />
+    <Content Include="NTCA-RO\NTCA-RO.master" />
+    <Content Include="Secure.Master" />
+    <Content Include="uploader.ashx" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <None Include="Upload\UC\Final\091 UC 2015-16_upload.docx" />
+    <None Include="Upload\UC\Final\091 UC 2015-16_upload.pdf" />
+    <None Include="Upload\UC\Final\CSS UC  MTR Amravati  15 16.pdf" />
+    <None Include="Upload\UC\Final\form GFR 19-A.pdf" />
+    <None Include="Upload\UC\Final\Pench CSS %282015-16%29 U.C..xlsx" />
+    <None Include="Upload\UC\Final\Project Tiger - UC  2015-16.docx" />
+    <None Include="Upload\UC\Final\PT_UC_PR_2015-16.pdf" />
+    <None Include="Upload\UC\Final\U.C.  2015-16.doc" />
+    <None Include="Upload\UC\Final\U.C. %28Pench%29 2015-16.docx" />
+    <None Include="Upload\UC\Final\UC CSP.pdf" />
+    <None Include="Upload\UC\Final\UC CSS March 2016.pdf" />
+    <None Include="Upload\UC\Final\UC NTCA.docx" />
+    <None Include="Upload\UC\Final\uc.doc" />
+    <None Include="Upload\UC\Final\UC1.pdf" />
+    <None Include="Upload\UC\Final\uc2.pdf" />
+    <None Include="Upload\UC\Final\Utilization Certificate &amp; Physical-Financial Achievement.pdf" />
+    <None Include="Upload\UC\Final\Utilization Certificate 2015-16.docx" />
+    <None Include="Upload\UC\Final\Utilization Certificate 2015-16_Pench TR MP.pdf" />
+    <None Include="Upload\UC\Final\Utilization Certificate for the year 2015-16.docx" />
+    <None Include="Upload\UC\Final\Utilization_Certificate _PT_STR.pdf" />
+    <None Include="Upload\UC\Final\Utilizition.pdf" />
+    <None Include="Upload\UC\Provisional\091 UC 2015-16_upload.pdf" />
+    <None Include="Upload\UC\Provisional\form GFR 19-A.pdf" />
+    <None Include="Upload\UC\Provisional\PFY-2015-2016 .xls" />
+    <None Include="Upload\UC\Provisional\PR &amp; UC.pdf" />
+    <None Include="Upload\UC\Provisional\Project Tiger - UC  2015-16.docx" />
+    <None Include="Upload\UC\Provisional\UC CSP.pdf" />
+    <None Include="Upload\UC\Provisional\UC Project Tiger_STR.pdf" />
+    <None Include="Upload\UC\Provisional\UC.PDF" />
+    <None Include="Upload\UC\Provisional\Utilization Certificate 2015-16.docx" />
+    <None Include="Upload\UC\Provisional\Utilization Certificate for the year 2015-16.docx" />
+    <None Include="Upload\UC\Provisional\Utilization_Certificate _PT_STR.pdf" />
+    <None Include="Upload\UC\Provisional\Utilizition.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>33606</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

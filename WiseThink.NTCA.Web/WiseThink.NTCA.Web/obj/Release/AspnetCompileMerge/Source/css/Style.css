@@ -1,0 +1,28 @@
+﻿.ScrollCSS
+{
+	overflow-y: scroll;
+border: 1px solid #C4B7B7;
+width: 324px;
+height: 116px;
+
+	}
+.TopCss
+	{
+		font-size:12px; color:#000000;  padding:10px 5px; vertical-align:top; text-align:left; border-color:#c4c4c4;
+		}
+			
+.Button
+{
+	margin-bottom:20px;
+	}
+	.show_hideZoo:hover
+	{
+		color: #1d60ff;
+text-decoration: none;
+		}
+.print{background:url(/images/btn-print.jpg) no-repeat 0 0;
+       float:left; width:57px; height:20px; margin-top:13px;}
+.print:hover{background:url(/images/btn-print-hover.jpg) no-repeat 0 0;
+             float:left; width:57px; height:20px; margin-top:13px;}
+
+	

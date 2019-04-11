@@ -1,0 +1,601 @@
+﻿/********************Form Button********************/
+.b-form .hint {
+    color: #aeb1b2;
+    vertical-align: middle;
+}
+
+.buttonArea{
+    position: relative;
+}
+
+.b-form .buttonArea{
+    background: #fff7d6;
+}
+
+.b-form .buttonArea{
+    padding: 20px 0 20px 200px;
+}
+
+.b-form .buttonArea a{
+    vertical-align: middle;
+    color: #be9d14;
+}
+
+/******************** Form Grid ********************/ 
+
+.b-formGrid{
+    margin-bottom: 30px;
+    zoom:1;
+}
+
+.b-formGrid table{
+    width: 100%;
+}
+
+.b-formGrid th{
+    border: 1px solid #fff;
+    padding: 15px 0px;
+    background: #ecf7ff;
+    /*padding-left:5px;*/
+    color: #2166a0;
+    font-weight: normal;
+    vertical-align: top;
+    text-align: right;
+   /* min-width: 100px;*/
+  /* width:350px;*/
+}
+
+.b-formGrid .b-field{
+    white-space: nowrap;
+}
+
+.b-formGrid td{
+    border: 1px solid #fff;
+    padding: 5px 20px 5px 10px;
+    background: #f9fdff;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.b-formGrid .formText 
+{
+	color: #2166a0;
+	font-size: 13px;
+    font-weight: normal;	
+}
+
+
+/******************** FIELD ********************/ 
+
+.b-field{
+    margin: 0 0 10px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: top;
+}
+
+.b-formGrid .b-field{
+    margin: 0;
+    width: 100%;
+}
+
+.b-field .disabled{
+    opacity: 0.5;
+    cursor: default;
+}
+
+.b-field .textInput{
+    background: #fff;
+    border: 1px solid #c9d9e4;
+    font-size: 12px;
+    color: #000;
+    height: 27px;
+    line-height: 27px;
+    padding: 0 5px;
+    z-index: 1;
+    width: 200px;
+    outline: none;
+    font-family: Arial;
+    vertical-align: middle;
+    position: relative;
+}
+
+.b-field .tip{
+    position: absolute;
+    left: 6px;
+    top:6px;
+    color: #b2b2b2;
+    z-index: 10;
+    cursor: text;
+    font-size: 12px;
+}
+
+.b-field .textInput:focus{
+    border: 2px solid #9bbfd8;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 4px;
+}
+
+.b-field .i-close_18 {
+    position: absolute;
+    right: 5px;
+    top:4px;
+    z-index: 20;
+}
+
+/*Sumit button and cancel button css*/
+.Sumitbtn
+{
+	padding:5px; margin-right:15px; background-color:#0B6EA1; color:White; font-size:16px;
+}
+.Cancelbtn
+{
+	padding:5px; background-color:#0B6EA1; color:White; font-size:16px;
+}
+.btnDiv
+{
+	width:20%; margin-left:260px; text-align:center; padding-top:15px;
+}
+/*dropdown css*/
+.dropdown
+{
+	width: 205px; height:23px;border: 1px solid gray;
+}
+.NoColor
+{
+	color:#85F70A;
+	font-size:17px;
+	font-weight:500;
+}
+.th
+{
+	width:330px;
+	color:White;
+	
+}
+/*Set Horizontal Sub-Menu */
+#horizontalmenu ul
+        {
+            padding: 5;
+            margin: 1;
+            list-style: none;
+        }
+        #horizontalmenu li
+        {
+            float: left;
+            position: relative;
+            padding-right: 100;
+            display: block;
+            border: 1px none #ffffff;
+            top: 0px;
+	left: 0px;
+}
+        #horizontalmenu li ul
+        {
+            display: none;
+            position: absolute;
+        }
+        #horizontalmenu li:hover ul
+        {
+            display: block;
+            width:100%;
+            background:gray;
+           /* color:red;*/
+            height: auto;
+            width: auto;
+        }
+        #horizontalmenu li ul li
+        {
+            clear: both;
+            border-style: none;
+        }
+        
+     ul.SubMenu li a
+	  {
+	display: block;
+	padding: 9px 26px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #333;
+	 }
+ul.SubMenu li a:hover, ul.SubMenu li.active a
+{
+	background: #A5785A;
+	width:70%;
+		color: #fff;
+}
+/*Sub-Menu CSS*/
+
+
+.notificationdiv
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/*Notification HOver Color*/
+ul.notificationlist li a:hover
+{
+	background-color: #46848E !important;
+
+	color: #fff;
+}
+/*Notification Hover Color*/
+
+/*TABLE back ground color*/
+.backcolor
+{
+	background-color:#0B6EA1;
+}
+
+/*Notificaiton Table CSS*/
+.border
+{
+	border: 1px solid gray;
+	/*height:50px;*/
+	/*font-size:14px;*/
+	height:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:Black;
+	/*margin-left:2px;*/
+	padding-left:5px;
+	
+	
+}
+/*Notification Table Row CSS*/
+.tr
+{
+	color:White;
+}
+
+/*Notificaiton Alternate Row Color*/
+.trAlt
+{
+	background-color:rgb(200,219,232);
+}
+/*Page Css*/
+.in
+        {
+            background: #fbfbfb !important;
+            color: gray !important;
+            border: solid 1px #e5e5e5 !important;
+            max-width: 200px !important;
+            width: 100% !important;
+            padding: 4px !important;
+        }
+/*Page css*/
+#content
+        {
+            max-width: 70em;
+            width: 100%;
+            margin: 0 auto;
+            margin-top:20px;
+            padding-bottom: 60px;
+           /* overflow: hidden;*/
+        }
+        #content h3
+        {
+            margin: 0px 0 1px;
+        }
+        .expand a
+        {
+            display: block;
+            padding: 8px 10px;
+            background: #0B6EA1;
+            color: #fff;
+            font-size: 15px;
+            font-weight: normal;
+            text-decoration: none;
+            background-image: url(../Images/plus.png);               
+                background-repeat: no-repeat;
+                background-position: 98% 50%;
+        }
+         /*Set Image plus and minus css*/
+       
+            
+            .expand a.open:link, .expand a.open:visited
+            {
+                background: #0B6EA1 url(../Images/minus.png) no-repeat 98% 50%;
+            }
+        
+        
+   /*Edit Institute css*/
+   .EditCss
+   {
+   	border: 1px solid gray;
+	font-size:13px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:8px;
+	text-align:right;
+	margin-left:2px;
+   }
+   /*Add New Button Css of Users.html*/
+   a.btnbrowser{ display:block;
+                  font-weight:bold;
+                   color:#fff;
+                    background-color:#0B6EA1;
+                     font-size:16px; 
+                     padding:5px;
+                      text-decoration:none; 
+                      text-align:right
+                      
+                      }
+a.btnbrowser:hover{background:#333}
+
+   /*Add New Button Css of Users.html*/
+   
+   /*Deactive Class*/
+   ul.mainmenu li.Deactive a
+{
+	background:gray;	
+	color: #333;
+	
+}
+
+   ul.mainmenu li.Deactive a:hover
+{
+	background:#A5785A;	
+	color: #fff;
+	
+}
+   /*Deactive Class*/
+   /*Sub Menu Active*/
+    ul.mainmenu li.SubMenuActive a
+{
+	background: #A5785A;
+	color: #fff;
+}
+
+
+
+
+.bold
+        {
+            font-weight: bold;
+        } 
+        
+        /*Table Background css*/
+        .tblBackGround
+        {
+        /*background: #E7E7E7;*/
+        background:#fff;
+         margin-left: 10%; 
+         margin-right: 10%;
+          margin-top:20px;
+           font-size: 14px;
+           border: 1px solid black;
+        }
+        /*Table Header css*/
+        .tdHeader
+        {
+        	background:#0B6EA1; 
+        	color:#fff;
+        	 font-size:14px;
+        	  font-weight:bold;
+        }
+        
+        /*Page Title CSs*/
+        .pagetitle
+        {
+        float: left; 
+        padding-left: 20px;
+         padding-bottom: 10px;
+          margin-bottom: 0px;
+                width: 98%; 
+                border-bottom-style: solid;
+                 border-bottom-width: thin;
+               margin-top: 15px;
+               font-size:18px;
+               font-family:Arial;
+        }
+        
+        /*Dropdown CSS*/
+        .dropdown
+        {
+        	width: 177px;
+        	height:25px;
+        }
+        .txtArea
+        {
+        	width:168px;
+        	height:70px;
+        }
+        .margetable
+        {
+        	margin-bottom: 20px;
+        	 margin-top: 20px;
+        	  margin-left: 1%;
+        }
+        .FirtRowColor
+        {
+        	
+        }
+        .TigerReservebutton
+        {
+        	width: 90px; 
+        	margin-bottom:20px;
+        	 margin-left:450px;
+        	/*margin-right:100px;*/
+        }
+        .btnheight
+        {
+        	
+        }
+        .RegisterBackButton
+        {
+        	width:90px; margin-right:290px;
+        }
+        .RegisterRegisterButton
+        {
+        	width:90px; margin-left:290px;
+        }
+        .fontCss
+        {
+        	font-size:12px;
+        }
+        .rowHeight
+        {
+        	height:370px;
+        }
+        .logoImagescss
+        {
+        	width: 15%; padding-left: 15px;
+        }
+        .logotxtImageCSS
+        {
+        	padding-left: 10px; padding-top: 20px;width: 66%;
+        }
+        .elumImageCss
+        {
+        	width: 10%; padding-left: 10px; padding-top: 5px;
+        }
+        .treeImageCss
+        {
+        	padding-top: 7px;
+        }
+        .CaptureImagesCSs
+        {
+        	width:170px;
+            height:37px;
+        }
+        .FinalPagebuttonCss
+        {
+        	width: 90px; 
+        	margin-bottom:20px;
+        	 margin-left:45px;
+        	 margin-top:20px;
+        }
+        .EditTigerReserveRegistrationButton
+        {
+        	width:90px; margin-left:285px; float:left
+        }
+        .EditTigerReserveBackButton
+        {
+         width:120px; margin-left:410px;
+        }
+        .UCViewButton
+        {
+        	 margin-left:40px;color:#fff;
+        }
+        .downloadMargintable
+        {
+        	margin-bottom: 20px;
+        	margin-top: 20px;
+        	margin-left: 20%;
+        }
+        .HomePageLeftDivCSS
+        {
+         width: 710px; padding-bottom:275px; margin-bottom:-270px; border-right-style: solid; border-right-width: thin; float: left;
+        }
+        .NotificationDivHeight
+        {
+        	height: 177px;
+        }
+                
+        .ManageHeadbtn
+        {
+        	height:20px;
+        		width: 90px; 
+        	margin-bottom:20px;
+        	 margin-left:50px;
+        }
+        .TableRowBackGroundColor
+        {
+        	background:#fff;
+        }
+        .TableMarginEditStateMaster
+        {
+        	margin-top:10px; margin-left:40px;margin-bottom:20px;
+        }
+         *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .ImagebuttonPadding
+        {
+        	padding-left:30px;
+        }
+        /**************************New Css To apply web form button**************************************/
+        /*Add New Button css for tiger Reserve*/
+        .buttonMargin
+        {
+        	padding-left:420px;
+        }
+        /*Back button css for FieldDirectoreEditProfile*/
+        .backbuttoncss
+        {
+        	margin-left:360px;
+        	margin-right:10px;
+        	margin-top:10px;
+        	margin-bottom:20px;
+        }
+        /*Registration page Registration button css*/
+        .Registrationcss
+        {
+        	margin-left:310px;
+        	margin-right:10px;
+        	margin-top:10px;
+        	margin-bottom:20px;
+        }
+        .button
+        {   
+         margin-right:20px;
+         padding-right:15px;
+         padding-left:15px;
+         padding-top:7px;
+         padding-bottom:7px;
+        }
+        .ViewpageButtonMargin
+        {
+        	margin-left:30px;
+        	margin-top:10px;
+        }
+        /*Tiger Reserve Grid Margin*/
+        .TigerReserveGridmMargin
+        {
+        	margin:3% 7% 2% 5%;
+        }
+        /*State Master Grid Margin*/
+        .StateMasterGridMargin
+        {
+        	width:60%;
+        	margin:3% 7% 2% 20%;
+        }
+        /*Notification Grid Margin*/
+        .NotificationGridMargin
+        {
+        	margin:2% 5% 2% 5%;
+        	width:90%;
+        }
+        /******Manage Head css*/
+        /*head dropdown css*/
+        .ManageHeadDropdowncss
+        {
+        	width: 170px; border:1px solid;
+        }
+       .ManageHeadtextboxcss
+       {
+       	border: 1px solid; height: 18px; width: 170px;
+       }
+       .MangeHeadDescribiton
+       {
+       	width: 170px; border: 1px solid; height:70px;
+       }
+       .ShowStar
+       {
+       	color:Red;
+       	
+       }
+       .HideStar
+       {
+       	display:none;
+       }
+         
+        
+       
+        

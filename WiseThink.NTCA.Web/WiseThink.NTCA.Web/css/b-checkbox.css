@@ -1,0 +1,67 @@
+.b-checkbox{
+    display: inline-block;
+    display: inline;
+    /*zoom: 1;*/
+    vertical-align: middle;
+    margin: 0 3px 0 0;
+    width: 27px;
+    height: 27px;
+    background-image: url("images/checkbox.png");
+    background-repeat: no-repeat;
+}
+
+.b-checkbox.disabled{
+    /*opacity: 0.5;*/
+}
+
+.b-checkbox.hover, .b-checkbox:hover{
+    background-position: 0 -27px;
+}
+
+.b-checkbox.pressed, .b-checkbox:active{
+    background-position: 0 -54px;
+}
+
+/**/
+
+.b-checkbox.checked{
+    background-position: -54px 0;
+}
+
+.b-checkbox.checked.hover, .b-checkbox.checked:hover{
+    background-position: -54px -27px;
+}
+
+.b-checkbox.checked.pressed, .b-checkbox.checked:active{
+    background-position: -54px -54px;
+}
+
+/**/
+
+.b-checkbox.focused{
+    background-position: -27px 0;
+}
+
+.b-checkbox.focused.hover, .b-checkbox.focused:hover{
+    background-position: -27px -27px;
+}
+
+.b-checkbox.focused.pressed, .b-checkbox.focused:active{
+    background-position: -27px -54px;
+}
+
+/**/
+
+.b-checkbox.focused.checked{
+    background-position: -81px 0;
+}
+
+.b-checkbox.focused.checked.hover, .b-checkbox.focused.checked:hover{
+    background-position: -81px -27px;
+}
+
+.b-checkbox.focused.checked.pressed, .b-checkbox.focused.checked:active{
+    background-position: -81px -54px;
+}
+
+/**/

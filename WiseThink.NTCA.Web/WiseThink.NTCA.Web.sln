@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications", "Notifications\Notifications.csproj", "{7919089F-FF8E-44A7-A348-3C55B3B4EA6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiseThink.NTCA.Web", "WiseThink.NTCA.Web\WiseThink.NTCA.Web.csproj", "{12F9EC3F-2FAD-4763-9347-8A79713251C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiseThink.NTCA.BAL", "..\WiseThink.NTCA.BAL\WiseThink.NTCA.BAL.csproj", "{56894D5F-CE4F-4EF1-B26F-F604D4E26270}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBF916C0-1180-444B-9D3D-A38266B5670A} = {BBF916C0-1180-444B-9D3D-A38266B5670A}
+		{5AD5F0D5-FCD3-47AD-AE1B-10EBB515B644} = {5AD5F0D5-FCD3-47AD-AE1B-10EBB515B644}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiseThink.NTCA.DAL", "..\WiseThink.NTCA.DAL\WiseThink.NTCA.DAL.csproj", "{BBF916C0-1180-444B-9D3D-A38266B5670A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiseThink.NTCA.DataEntity", "..\WiseThink.NTCA.DataEntity\WiseThink.NTCA.DataEntity.csproj", "{5AD5F0D5-FCD3-47AD-AE1B-10EBB515B644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiseThink.Scheduler", "..\WiseThink.Scheduler\WiseThink.Scheduler.csproj", "{8DF19B57-40FF-4274-8639-0A8D0A71C0EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7919089F-FF8E-44A7-A348-3C55B3B4EA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7919089F-FF8E-44A7-A348-3C55B3B4EA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7919089F-FF8E-44A7-A348-3C55B3B4EA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7919089F-FF8E-44A7-A348-3C55B3B4EA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F9EC3F-2FAD-4763-9347-8A79713251C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F9EC3F-2FAD-4763-9347-8A79713251C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F9EC3F-2FAD-4763-9347-8A79713251C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F9EC3F-2FAD-4763-9347-8A79713251C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56894D5F-CE4F-4EF1-B26F-F604D4E26270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56894D5F-CE4F-4EF1-B26F-F604D4E26270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56894D5F-CE4F-4EF1-B26F-F604D4E26270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56894D5F-CE4F-4EF1-B26F-F604D4E26270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF916C0-1180-444B-9D3D-A38266B5670A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF916C0-1180-444B-9D3D-A38266B5670A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF916C0-1180-444B-9D3D-A38266B5670A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF916C0-1180-444B-9D3D-A38266B5670A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD5F0D5-FCD3-47AD-AE1B-10EBB515B644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD5F0D5-FCD3-47AD-AE1B-10EBB515B644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD5F0D5-FCD3-47AD-AE1B-10EBB515B644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD5F0D5-FCD3-47AD-AE1B-10EBB515B644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF19B57-40FF-4274-8639-0A8D0A71C0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF19B57-40FF-4274-8639-0A8D0A71C0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF19B57-40FF-4274-8639-0A8D0A71C0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF19B57-40FF-4274-8639-0A8D0A71C0EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

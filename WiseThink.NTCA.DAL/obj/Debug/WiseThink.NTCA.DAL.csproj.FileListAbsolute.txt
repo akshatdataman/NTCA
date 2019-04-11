@@ -1,0 +1,264 @@
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\bin\Debug\log4net.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\bin\Debug\itextsharp.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\bin\Debug\log4net.xml
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\obj\Debug\WiseThink.NTCA.DAL.csprojResolveAssemblyReference.cache
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.Sample.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.csprojResolveAssemblyReference.cache
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\log4net.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\itextsharp.dll
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\log4net.xml
+D:\Indu\DevArea\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\log4net.dll
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\itextsharp.dll
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\bin\Debug\log4net.xml
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+D:\Indu\DevArea\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\log4net.dll
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\itextsharp.dll
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\log4net.xml
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+D:\Indu\DevArea\NTCA\NTCAWebProject\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\log4net.dll
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\itextsharp.dll
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\bin\Debug\log4net.xml
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+D:\Indu\DevArea\Projects\NTCA Web Application\NTCAWebProject\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\bin\Debug\log4net.dll
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\bin\Debug\itextsharp.dll
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\bin\Debug\log4net.xml
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+E:\Indu\Projects\NTCAWebApp\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\log4net.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\itextsharp.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\log4net.xml
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\bin\Debug\itextsharp.xml
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.csprojResolveAssemblyReference.cache
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\log4net.dll
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\itextsharp.dll
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\log4net.xml
+E:\NTCALatestApp\WiseThink.NTCA.DAL\bin\Debug\itextsharp.xml
+E:\NTCALatestApp\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.csprojResolveAssemblyReference.cache
+E:\NTCALatestApp\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+E:\NTCALatestApp\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\log4net.dll
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\itextsharp.dll
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\log4net.xml
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\itextsharp.xml
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.csprojResolveAssemblyReference.cache
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+E:\Zahir\Desktop\NTCA APO APP\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\log4net.dll
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\itextsharp.dll
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\log4net.xml
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\bin\Debug\itextsharp.xml
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.csprojResolveAssemblyReference.cache
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+D:\NTCA APO 15-09-2017\NTCA APO APP\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\log4net.dll
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\itextsharp.dll
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\log4net.xml
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\itextsharp.xml
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.csprojResolveAssemblyReference.cache
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\log4net.dll
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\itextsharp.dll
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\log4net.xml
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\bin\Debug\itextsharp.xml
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.csprojResolveAssemblyReference.cache
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+E:\NTCALatestApp\17-01-2018\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\log4net.dll
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\itextsharp.dll
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\log4net.xml
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\itextsharp.xml
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.csprojResolveAssemblyReference.cache
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\log4net.dll
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\itextsharp.dll
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\log4net.xml
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\itextsharp.xml
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.csprojResolveAssemblyReference.cache
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+E:\NTCALatestApp\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.pdb
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\log4net.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\itextsharp.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\log4net.xml
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\bin\Debug\itextsharp.xml
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.csprojResolveAssemblyReference.cache
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DAL\obj\Debug\WiseThink.NTCA.DAL.pdb

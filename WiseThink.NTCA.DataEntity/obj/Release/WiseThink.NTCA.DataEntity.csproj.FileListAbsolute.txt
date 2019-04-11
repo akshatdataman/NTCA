@@ -1,0 +1,76 @@
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DataEntity\bin\Release\WiseThink.NTCA.DataEntity.dll
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DataEntity\bin\Release\WiseThink.NTCA.DataEntity.pdb
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DataEntity\bin\Release\AntiXssLibrary.dll
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DataEntity\bin\Release\HtmlSanitizationLibrary.dll
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DataEntity\bin\Release\itextsharp.dll
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DataEntity\bin\Release\log4net.dll
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DataEntity\bin\Release\AntiXssLibrary.xml
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DataEntity\bin\Release\HtmlSanitizationLibrary.xml
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DataEntity\bin\Release\log4net.xml
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.dll
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.pdb
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DataEntity\bin\Release\WiseThink.NTCA.DataEntity.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DataEntity\bin\Release\WiseThink.NTCA.DataEntity.pdb
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DataEntity\bin\Release\AntiXssLibrary.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DataEntity\bin\Release\HtmlSanitizationLibrary.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DataEntity\bin\Release\itextsharp.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DataEntity\bin\Release\log4net.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DataEntity\bin\Release\AntiXssLibrary.xml
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DataEntity\bin\Release\HtmlSanitizationLibrary.xml
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DataEntity\bin\Release\itextsharp.xml
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DataEntity\bin\Release\log4net.xml
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.csprojResolveAssemblyReference.cache
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.pdb
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DataEntity\bin\Release\WiseThink.NTCA.DataEntity.dll
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DataEntity\bin\Release\WiseThink.NTCA.DataEntity.pdb
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DataEntity\bin\Release\AntiXssLibrary.dll
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DataEntity\bin\Release\HtmlSanitizationLibrary.dll
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DataEntity\bin\Release\itextsharp.dll
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DataEntity\bin\Release\log4net.dll
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DataEntity\bin\Release\AntiXssLibrary.xml
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DataEntity\bin\Release\HtmlSanitizationLibrary.xml
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DataEntity\bin\Release\itextsharp.xml
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DataEntity\bin\Release\log4net.xml
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.csprojResolveAssemblyReference.cache
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.dll
+D:\NTCA App Development Code\17-01-2018\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.pdb
+D:\Zahirhusain\NTCA APO\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\WiseThink.NTCA.DataEntity.dll
+D:\Zahirhusain\NTCA APO\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\WiseThink.NTCA.DataEntity.pdb
+D:\Zahirhusain\NTCA APO\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\AntiXssLibrary.dll
+D:\Zahirhusain\NTCA APO\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\HtmlSanitizationLibrary.dll
+D:\Zahirhusain\NTCA APO\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\itextsharp.dll
+D:\Zahirhusain\NTCA APO\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\log4net.dll
+D:\Zahirhusain\NTCA APO\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\AntiXssLibrary.xml
+D:\Zahirhusain\NTCA APO\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\HtmlSanitizationLibrary.xml
+D:\Zahirhusain\NTCA APO\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\itextsharp.xml
+D:\Zahirhusain\NTCA APO\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\log4net.xml
+D:\Zahirhusain\NTCA APO\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.csprojResolveAssemblyReference.cache
+D:\Zahirhusain\NTCA APO\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.dll
+D:\Zahirhusain\NTCA APO\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.pdb
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\WiseThink.NTCA.DataEntity.dll
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\WiseThink.NTCA.DataEntity.pdb
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\AntiXssLibrary.dll
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\HtmlSanitizationLibrary.dll
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\itextsharp.dll
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\log4net.dll
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\AntiXssLibrary.xml
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\HtmlSanitizationLibrary.xml
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\itextsharp.xml
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\log4net.xml
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.csprojResolveAssemblyReference.cache
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.dll
+D:\Zahirhusain\NTCA APO\New Audit Points 06-03-2018\15-02-2018 NTCA\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.pdb
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\WiseThink.NTCA.DataEntity.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\WiseThink.NTCA.DataEntity.pdb
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\AntiXssLibrary.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\HtmlSanitizationLibrary.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\itextsharp.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\log4net.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\AntiXssLibrary.xml
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\HtmlSanitizationLibrary.xml
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\itextsharp.xml
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Release\log4net.xml
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.csprojResolveAssemblyReference.cache
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\obj\Release\WiseThink.NTCA.DataEntity.pdb

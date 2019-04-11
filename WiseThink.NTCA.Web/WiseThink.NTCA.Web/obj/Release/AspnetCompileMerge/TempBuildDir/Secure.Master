@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Secure.master.cs" Inherits="WiseThink.NTCA.Web.Secure" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server" id="PageHead">
+    <title>Secure Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <h1>
+            Your Account [SECURE]</h1>
+        <asp:ContentPlaceHolder ID="Main" runat="server">
+        </asp:ContentPlaceHolder>
+        <p>
+            Note: Your session will expire in
+            <%=SessionLengthMinutes %>
+            minute(s), <%=Session["name"] %> .
+        </p>
+    </div>
+    </form>
+</body>
+</html>

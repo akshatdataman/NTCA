@@ -1,0 +1,15 @@
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.Web\Notifications\bin\Release\Notifications.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.Web\Notifications\bin\Release\Notifications.pdb
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.Web\Notifications\obj\Release\Notifications.csprojResolveAssemblyReference.cache
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.Web\Notifications\obj\Release\Notifications.dll
+D:\Zahirhusain\NTCA APO\NTCA PROJECT Checkout on 11-08-2016\WiseThink.NTCA.Web\Notifications\obj\Release\Notifications.pdb
+E:\NTCALatestApp\WiseThink.NTCA.Web\Notifications\bin\Release\Notifications.dll
+E:\NTCALatestApp\WiseThink.NTCA.Web\Notifications\bin\Release\Notifications.pdb
+E:\NTCALatestApp\WiseThink.NTCA.Web\Notifications\obj\Release\Notifications.csprojResolveAssemblyReference.cache
+E:\NTCALatestApp\WiseThink.NTCA.Web\Notifications\obj\Release\Notifications.dll
+E:\NTCALatestApp\WiseThink.NTCA.Web\Notifications\obj\Release\Notifications.pdb
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.Web\Notifications\bin\Release\Notifications.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.Web\Notifications\bin\Release\Notifications.pdb
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.Web\Notifications\obj\Release\Notifications.csprojResolveAssemblyReference.cache
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.Web\Notifications\obj\Release\Notifications.dll
+D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.Web\Notifications\obj\Release\Notifications.pdb

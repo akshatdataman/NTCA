@@ -1,0 +1,17 @@
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\bin\Release\WiseThink.NTCA.DAL.dll
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\bin\Release\WiseThink.NTCA.DAL.pdb
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\bin\Release\WiseThink.NTCA.DataEntity.dll
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\bin\Release\log4net.dll
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\bin\Release\itextsharp.dll
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\bin\Release\WiseThink.NTCA.DataEntity.pdb
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\bin\Release\log4net.xml
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\obj\Release\WiseThink.NTCA.DAL.csprojResolveAssemblyReference.cache
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\obj\Release\WiseThink.NTCA.DAL.dll
+D:\Indu\SourceCode\NTCA\WiseThink.NTCA.DAL\obj\Release\WiseThink.NTCA.DAL.pdb

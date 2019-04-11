@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{56894D5F-CE4F-4EF1-B26F-F604D4E26270}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WiseThink.NTCA.BAL</RootNamespace>
+    <AssemblyName>WiseThink.NTCA.BAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binaries\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WiseThink.NTCA.DAL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WiseThink.NTCA.DAL\bin\Debug\WiseThink.NTCA.DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="WiseThink.NTCA.DataEntity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WiseThink.NTCA.DataEntity\bin\Debug\WiseThink.NTCA.DataEntity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlertBAL.cs" />
+    <Compile Include="APOBAL.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Authorization\AuthoCookie.cs" />
+    <Compile Include="Authorization\AuthoProvider.cs" />
+    <Compile Include="Authorization\RemoveSessions.cs" />
+    <Compile Include="Authorization\SessionHijacking.cs" />
+    <Compile Include="CentralStateShareBAL.cs" />
+    <Compile Include="CheckListBAL.cs" />
+    <Compile Include="CommonClass.cs" />
+    <Compile Include="CustomOperation.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesignationBAL.cs" />
+    <Compile Include="DocumentBAL.cs" />
+    <Compile Include="FeedbackBAL.cs" />
+    <Compile Include="Helper\DownloadHelper .cs" />
+    <Compile Include="Helper\ExportHelper.cs" />
+    <Compile Include="ManageActivityBAL.cs" />
+    <Compile Include="ManageGuidelineBAL.cs" />
+    <Compile Include="ManageInstallmentBAL.cs" />
+    <Compile Include="ManageNonRecurringRecurringRatioBAL.cs" />
+    <Compile Include="ObligationBAL.cs" />
+    <Compile Include="ObligationMasterBAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuarterlyReportBAL.cs" />
+    <Compile Include="Reports\CommonBAL.cs" />
+    <Compile Include="Reports\ReportsBAL.cs" />
+    <Compile Include="SettledUcBAL.cs" />
+    <Compile Include="StateBAL.cs" />
+    <Compile Include="TigerReserveBAL.cs" />
+    <Compile Include="TigerReserveDetailsBAL.cs" />
+    <Compile Include="UserBAL.cs" />
+    <Compile Include="UtilizationCertificateBAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ActiveDs">
+      <Guid>{97D25DB0-0363-11CF-ABC4-02608C9E7553}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,808 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2017-01-27T10:55:36.0000000+05:30</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>E:\Zahir\Desktop\NTCA-APP_Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Admin/add-User.aspx">
+      <publishTime>11/08/2016 12:26:36</publishTime>
+    </File>
+    <File Include="Admin/Admin.master">
+      <publishTime>01/27/2017 10:55:34</publishTime>
+    </File>
+    <File Include="Admin/Alerts.aspx">
+      <publishTime>08/11/2016 11:03:38</publishTime>
+    </File>
+    <File Include="Admin/AuditTrail.aspx">
+      <publishTime>08/11/2016 11:03:38</publishTime>
+    </File>
+    <File Include="Admin/EditStateMaster.aspx">
+      <publishTime>08/31/2016 11:40:24</publishTime>
+    </File>
+    <File Include="Admin/EditTigerReserve.aspx">
+      <publishTime>01/27/2017 10:55:34</publishTime>
+    </File>
+    <File Include="Admin/Home.aspx">
+      <publishTime>10/05/2016 10:46:26</publishTime>
+    </File>
+    <File Include="Admin/LoginHistory.aspx">
+      <publishTime>01/27/2017 10:55:34</publishTime>
+    </File>
+    <File Include="Admin/ManageActivities.aspx">
+      <publishTime>01/27/2017 10:55:34</publishTime>
+    </File>
+    <File Include="Admin/ManageDesignation.aspx">
+      <publishTime>08/11/2016 11:03:38</publishTime>
+    </File>
+    <File Include="Admin/ManageHead.aspx">
+      <publishTime>08/11/2016 11:03:38</publishTime>
+    </File>
+    <File Include="Admin/ManageObligations.aspx">
+      <publishTime>10/05/2016 10:46:26</publishTime>
+    </File>
+    <File Include="Admin/SendAlert.aspx">
+      <publishTime>08/11/2016 11:03:38</publishTime>
+    </File>
+    <File Include="Admin/StateMaster.aspx">
+      <publishTime>08/11/2016 11:03:38</publishTime>
+    </File>
+    <File Include="Admin/TigerReserve.aspx">
+      <publishTime>01/27/2017 10:55:34</publishTime>
+    </File>
+    <File Include="Admin/Users.aspx">
+      <publishTime>08/11/2016 11:03:38</publishTime>
+    </File>
+    <File Include="App_Themes/Theme1/b-checkbox.css">
+      <publishTime>08/11/2016 11:04:10</publishTime>
+    </File>
+    <File Include="App_Themes/Theme1/img/checkbox.png">
+      <publishTime>08/11/2016 11:04:10</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>08/11/2016 11:04:10</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>03/09/2018 15:42:11</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>03/09/2018 15:42:11</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.Core.dll">
+      <publishTime>08/11/2016 10:52:34</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.Core.pdb">
+      <publishTime>08/11/2016 10:52:33</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.dll">
+      <publishTime>08/11/2016 10:52:34</publishTime>
+    </File>
+    <File Include="bin/Common.Logging.pdb">
+      <publishTime>08/11/2016 10:52:32</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>09/27/2016 11:29:08</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>08/31/2016 17:22:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>08/31/2016 17:22:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.pdb">
+      <publishTime>12/30/2014 13:42:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>08/31/2016 17:22:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.pdb">
+      <publishTime>12/30/2014 13:42:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ObjectBuilder.dll">
+      <publishTime>08/31/2016 17:22:32</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/30/2017 15:29:26</publishTime>
+    </File>
+    <File Include="bin/Notifications.dll">
+      <publishTime>01/17/2018 18:48:00</publishTime>
+    </File>
+    <File Include="bin/Notifications.pdb">
+      <publishTime>08/28/2017 14:04:36</publishTime>
+    </File>
+    <File Include="bin/pdfcrowd.dll">
+      <publishTime>08/11/2016 11:04:10</publishTime>
+    </File>
+    <File Include="bin/Quartz.dll">
+      <publishTime>08/11/2016 10:52:16</publishTime>
+    </File>
+    <File Include="bin/Quartz.pdb">
+      <publishTime>08/11/2016 10:52:15</publishTime>
+    </File>
+    <File Include="bin/WiseThink.NTCA.BAL.dll">
+      <publishTime>03/09/2018 15:41:56</publishTime>
+    </File>
+    <File Include="bin/WiseThink.NTCA.BAL.pdb">
+      <publishTime>08/28/2017 14:53:33</publishTime>
+    </File>
+    <File Include="bin/WiseThink.NTCA.DAL.dll">
+      <publishTime>03/06/2018 15:06:51</publishTime>
+    </File>
+    <File Include="bin/WiseThink.NTCA.DAL.pdb">
+      <publishTime>08/28/2017 14:53:33</publishTime>
+    </File>
+    <File Include="bin/WiseThink.NTCA.DataEntity.dll">
+      <publishTime>03/09/2018 15:41:55</publishTime>
+    </File>
+    <File Include="bin/WiseThink.NTCA.DataEntity.pdb">
+      <publishTime>08/28/2017 14:04:36</publishTime>
+    </File>
+    <File Include="bin/WiseThink.NTCA.Web.dll">
+      <publishTime>03/09/2018 15:41:59</publishTime>
+    </File>
+    <File Include="bin/WiseThink.NTCA.Web.pdb">
+      <publishTime>08/29/2017 12:52:02</publishTime>
+    </File>
+    <File Include="bin/WiseThink.Scheduler.dll">
+      <publishTime>03/09/2018 15:41:57</publishTime>
+    </File>
+    <File Include="bin/WiseThink.Scheduler.pdb">
+      <publishTime>08/28/2017 14:53:34</publishTime>
+    </File>
+    <File Include="CaptchaImage/JpegImage.aspx">
+      <publishTime>12/30/2014 13:49:26</publishTime>
+    </File>
+    <File Include="ChangePassword.aspx">
+      <publishTime>02/26/2018 12:05:40</publishTime>
+    </File>
+    <File Include="CreatePassword.aspx">
+      <publishTime>03/06/2018 11:42:19</publishTime>
+    </File>
+    <File Include="css/bootstrap-responsive.css">
+      <publishTime>08/11/2016 11:04:12</publishTime>
+    </File>
+    <File Include="css/bootstrap-responsive.min.css">
+      <publishTime>08/11/2016 11:04:12</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.css">
+      <publishTime>09/28/2017 13:02:52</publishTime>
+    </File>
+    <File Include="css/bootstrap-theme.min.css">
+      <publishTime>12/30/2014 13:52:14</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>08/31/2016 11:40:24</publishTime>
+    </File>
+    <File Include="css/bootstrap.min.css">
+      <publishTime>12/30/2014 13:52:14</publishTime>
+    </File>
+    <File Include="css/GridviewScroll.css">
+      <publishTime>08/11/2016 11:04:12</publishTime>
+    </File>
+    <File Include="css/images/animated-overlay.gif">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/checkbox.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_diagonals-thick_18_b81900_40x40.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_diagonals-thick_20_666666_40x40.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_flat_10_000000_40x100.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_glass_100_f6f6f6_1x400.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_glass_100_fdf5ce_1x400.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_gloss-wave_35_f6a828_500x100.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_222222_256x240.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_228ef1_256x240.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_ef8c08_256x240.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_ffd27a_256x240.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/images/ui-icons_ffffff_256x240.png">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/jquery-ui.css">
+      <publishTime>12/30/2014 13:52:14</publishTime>
+    </File>
+    <File Include="css/jquery-ui.min.css">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="css/jquery.datepick.css">
+      <publishTime>12/30/2014 13:52:14</publishTime>
+    </File>
+    <File Include="css/jquery.tooltip.css">
+      <publishTime>08/11/2016 11:04:12</publishTime>
+    </File>
+    <File Include="css/lists.css">
+      <publishTime>08/11/2016 11:04:12</publishTime>
+    </File>
+    <File Include="css/MyBootstrap.css">
+      <publishTime>06/16/2017 02:55:12</publishTime>
+    </File>
+    <File Include="css/mybootstrap2.css">
+      <publishTime>03/24/2017 11:32:10</publishTime>
+    </File>
+    <File Include="css/responsive-calendar.css">
+      <publishTime>08/11/2016 11:04:12</publishTime>
+    </File>
+    <File Include="css/sparkbox-select.css">
+      <publishTime>08/11/2016 11:04:12</publishTime>
+    </File>
+    <File Include="css/Style.css">
+      <publishTime>12/30/2014 13:52:14</publishTime>
+    </File>
+    <File Include="css/ValidationPopup.css">
+      <publishTime>12/30/2014 13:52:08</publishTime>
+    </File>
+    <File Include="CWW-Secretary/Alerts.aspx">
+      <publishTime>08/11/2016 10:52:40</publishTime>
+    </File>
+    <File Include="CWW-Secretary/ApproveAPO.aspx">
+      <publishTime>08/11/2016 10:52:40</publishTime>
+    </File>
+    <File Include="CWW-Secretary/CWW-Secretary.master">
+      <publishTime>08/11/2016 10:52:40</publishTime>
+    </File>
+    <File Include="CWW-Secretary/CWWFeedbackMOU.aspx">
+      <publishTime>08/31/2016 11:40:24</publishTime>
+    </File>
+    <File Include="CWW-Secretary/EditApo.aspx">
+      <publishTime>02/01/2018 14:17:48</publishTime>
+    </File>
+    <File Include="CWW-Secretary/Home.aspx">
+      <publishTime>09/28/2017 14:57:30</publishTime>
+    </File>
+    <File Include="CWW-Secretary/MonitoringCentral-StateShare.aspx">
+      <publishTime>10/05/2016 10:46:30</publishTime>
+    </File>
+    <File Include="CWW-Secretary/ObligationCWW.aspx">
+      <publishTime>09/27/2017 12:51:34</publishTime>
+    </File>
+    <File Include="CWW-Secretary/ReportList.aspx">
+      <publishTime>08/11/2016 10:52:40</publishTime>
+    </File>
+    <File Include="CWW-Secretary/SendAlert.aspx">
+      <publishTime>10/05/2016 10:46:30</publishTime>
+    </File>
+    <File Include="CWW-Secretary/UpdateAPOStatus.aspx">
+      <publishTime>08/11/2016 10:52:40</publishTime>
+    </File>
+    <File Include="CWW-Secretary/ViewAPO.aspx">
+      <publishTime>09/28/2017 15:36:06</publishTime>
+    </File>
+    <File Include="CWW-Secretary/ViewCheckList.aspx">
+      <publishTime>08/30/2017 17:59:14</publishTime>
+    </File>
+    <File Include="CWW-Secretary/ViewFieldDirectorObligations.aspx">
+      <publishTime>08/11/2016 10:52:40</publishTime>
+    </File>
+    <File Include="CWW-Secretary/ViewQuarterlyReport.aspx">
+      <publishTime>09/27/2017 17:06:28</publishTime>
+    </File>
+    <File Include="CWW-Secretary/ViewTigerReserveDetails.aspx">
+      <publishTime>08/11/2016 10:52:40</publishTime>
+    </File>
+    <File Include="CWW-Secretary/ViewUtilizationCertificate.aspx">
+      <publishTime>01/19/2018 11:22:10</publishTime>
+    </File>
+    <File Include="data_uploader.aspx">
+      <publishTime>03/06/2018 15:24:37</publishTime>
+    </File>
+    <File Include="EditProfile.aspx">
+      <publishTime>01/27/2017 10:55:34</publishTime>
+    </File>
+    <File Include="EmailTemplates/DefaultPassword.htm">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="ErrorPage.aspx">
+      <publishTime>08/11/2016 11:03:40</publishTime>
+    </File>
+    <File Include="FieldDirector/AdditionalAPO.aspx">
+      <publishTime>02/01/2018 14:16:56</publishTime>
+    </File>
+    <File Include="FieldDirector/CheckList.aspx">
+      <publishTime>01/16/2018 14:35:08</publishTime>
+    </File>
+    <File Include="FieldDirector/Download.aspx">
+      <publishTime>08/11/2016 10:53:56</publishTime>
+    </File>
+    <File Include="FieldDirector/DownloadActivities.aspx">
+      <publishTime>10/05/2016 10:46:26</publishTime>
+    </File>
+    <File Include="FieldDirector/DownloadActivityList.aspx">
+      <publishTime>10/27/2016 13:10:48</publishTime>
+    </File>
+    <File Include="FieldDirector/DownloadExpendituresReport.aspx">
+      <publishTime>11/01/2016 10:20:20</publishTime>
+    </File>
+    <File Include="FieldDirector/EditEcoDevelopment.aspx">
+      <publishTime>01/17/2018 18:49:00</publishTime>
+    </File>
+    <File Include="FieldDirector/FDFeedbackMOU.aspx">
+      <publishTime>08/30/2017 16:20:22</publishTime>
+    </File>
+    <File Include="FieldDirector/FDFlexiAmont.aspx">
+      <publishTime>08/30/2017 16:20:22</publishTime>
+    </File>
+    <File Include="FieldDirector/FDUtilizationCertificate.aspx">
+      <publishTime>02/01/2018 14:16:30</publishTime>
+    </File>
+    <File Include="FieldDirector/FieldDirector.Master">
+      <publishTime>01/17/2018 18:37:56</publishTime>
+    </File>
+    <File Include="FieldDirector/FieldDirectorAlerts.aspx">
+      <publishTime>08/11/2016 10:53:56</publishTime>
+    </File>
+    <File Include="FieldDirector/FieldDirectorAPODueforSubmission.aspx">
+      <publishTime>08/11/2016 10:53:56</publishTime>
+    </File>
+    <File Include="FieldDirector/FieldDirectorHome.aspx">
+      <publishTime>09/28/2017 15:05:02</publishTime>
+    </File>
+    <File Include="FieldDirector/FieldDirectorSubmitReport.aspx">
+      <publishTime>08/11/2016 10:53:54</publishTime>
+    </File>
+    <File Include="FieldDirector/FileUploader.ashx">
+      <publishTime>01/27/2017 10:55:32</publishTime>
+    </File>
+    <File Include="FieldDirector/ObligationFD.aspx">
+      <publishTime>08/30/2017 16:04:48</publishTime>
+    </File>
+    <File Include="FieldDirector/RelevantAPODocument.aspx">
+      <publishTime>10/05/2016 10:46:24</publishTime>
+    </File>
+    <File Include="FieldDirector/RelevantAPODocuments.aspx">
+      <publishTime>10/27/2016 13:10:48</publishTime>
+    </File>
+    <File Include="FieldDirector/SendAlert.aspx">
+      <publishTime>08/11/2016 10:53:56</publishTime>
+    </File>
+    <File Include="FieldDirector/SettledUc.aspx">
+      <publishTime>08/11/2016 10:53:56</publishTime>
+    </File>
+    <File Include="FieldDirector/Spillover.aspx">
+      <publishTime>08/11/2016 10:53:56</publishTime>
+    </File>
+    <File Include="FieldDirector/SubmitAPO.aspx">
+      <publishTime>02/01/2018 14:14:14</publishTime>
+    </File>
+    <File Include="FieldDirector/SubmitAPONew.aspx">
+      <publishTime>01/17/2018 18:43:46</publishTime>
+    </File>
+    <File Include="FieldDirector/SubmitQuarterlyReport.aspx">
+      <publishTime>09/06/2017 13:10:00</publishTime>
+    </File>
+    <File Include="FieldDirector/TigerReserveDetails.aspx">
+      <publishTime>10/27/2016 11:41:14</publishTime>
+    </File>
+    <File Include="FieldDirector/UpdateAPOStatus.aspx">
+      <publishTime>08/11/2016 10:53:56</publishTime>
+    </File>
+    <File Include="FieldDirector/ViewAPO.aspx">
+      <publishTime>09/28/2017 16:40:00</publishTime>
+    </File>
+    <File Include="FieldDirector/ViewCheckList.aspx">
+      <publishTime>08/30/2017 17:50:52</publishTime>
+    </File>
+    <File Include="FieldDirector/ViewEcoDevelopment.aspx">
+      <publishTime>08/30/2017 16:20:24</publishTime>
+    </File>
+    <File Include="FieldDirector/ViewPfyAPO.aspx">
+      <publishTime>08/11/2016 10:53:54</publishTime>
+    </File>
+    <File Include="FieldDirector/ViewTigerReserveDetails.aspx">
+      <publishTime>08/11/2016 10:53:54</publishTime>
+    </File>
+    <File Include="FieldDirector/ViewUtilizationCertificate.aspx">
+      <publishTime>10/27/2016 10:52:46</publishTime>
+    </File>
+    <File Include="fileUploader.ashx">
+      <publishTime>01/27/2017 10:55:32</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>08/11/2016 11:03:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>12/30/2014 13:52:44</publishTime>
+    </File>
+    <File Include="ForgotPassword.aspx">
+      <publishTime>08/11/2016 10:52:40</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/30/2014 13:48:28</publishTime>
+    </File>
+    <File Include="Images/arrow.gif">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/arrow1.jpg">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/arrow12.png">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/arrowhl.png">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/arrowhr.png">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/arrowvb.png">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/arrowvt.png">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/bg-right-heading.jpg">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/btn-print-hover.jpg">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/btn-print.jpg">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/btn-print.png">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/callender.jpg">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/captchya.jpg">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/collapse.png">
+      <publishTime>10/05/2016 10:46:28</publishTime>
+    </File>
+    <File Include="Images/copyright.gif">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/delete.png">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/Downloads.png">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/earth-banner.jpg">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/edit.png">
+      <publishTime>10/05/2016 10:46:28</publishTime>
+    </File>
+    <File Include="Images/edit1.png">
+      <publishTime>10/05/2016 10:46:28</publishTime>
+    </File>
+    <File Include="Images/elum.png">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/Error.jpg">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/expand.png">
+      <publishTime>10/05/2016 10:46:28</publishTime>
+    </File>
+    <File Include="Images/GPS.jpg">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/gps1.jpg">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/loader2.gif">
+      <publishTime>10/05/2016 10:46:28</publishTime>
+    </File>
+    <File Include="Images/logo.png">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/logotxt.png">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/ManageActivites.jpg">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/ManageStates.jpg">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/manageTigerReserve.png">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/manageTigerReserve1.png">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/ManageUsers.png">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/MangeStates.png">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/MangeUsers.jpg">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/minus.png">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/plus.png">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/Refresh.png">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/remove.png">
+      <publishTime>10/05/2016 10:46:28</publishTime>
+    </File>
+    <File Include="Images/sampleExcelIcon.jpg">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/samplePDFIcon.jpg">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/samplePDFIcon.png">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="Images/tree.png">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/viewall.png">
+      <publishTime>12/30/2014 13:45:24</publishTime>
+    </File>
+    <File Include="Images/warning.png">
+      <publishTime>10/05/2016 10:46:28</publishTime>
+    </File>
+    <File Include="Images/Word-icon.png">
+      <publishTime>08/11/2016 11:03:44</publishTime>
+    </File>
+    <File Include="js/blockUI.js">
+      <publishTime>10/27/2016 10:52:44</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>12/30/2014 13:52:30</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>12/30/2014 13:52:30</publishTime>
+    </File>
+    <File Include="js/expand.js">
+      <publishTime>12/30/2014 13:52:30</publishTime>
+    </File>
+    <File Include="js/jquery-ui.js">
+      <publishTime>10/05/2016 10:46:22</publishTime>
+    </File>
+    <File Include="js/jquery-ui.min.js">
+      <publishTime>12/30/2014 13:52:30</publishTime>
+    </File>
+    <File Include="js/jquery.crypt.js">
+      <publishTime>12/30/2014 13:52:30</publishTime>
+    </File>
+    <File Include="js/jquery.datepick.js">
+      <publishTime>10/05/2016 10:46:22</publishTime>
+    </File>
+    <File Include="js/jquery.sparkbox-select.js">
+      <publishTime>12/30/2014 13:52:30</publishTime>
+    </File>
+    <File Include="js/jquery.tooltip.js">
+      <publishTime>12/30/2014 13:52:30</publishTime>
+    </File>
+    <File Include="js/jQuery.WiseThink.Common.js">
+      <publishTime>08/11/2016 10:53:50</publishTime>
+    </File>
+    <File Include="js/jquery1.10.2.js">
+      <publishTime>12/30/2014 13:52:30</publishTime>
+    </File>
+    <File Include="js/JQueryExtensions.js">
+      <publishTime>12/30/2014 13:52:30</publishTime>
+    </File>
+    <File Include="js/jquerysession.js">
+      <publishTime>08/11/2016 10:53:50</publishTime>
+    </File>
+    <File Include="js/modernizr-1.7.min.js">
+      <publishTime>12/30/2014 13:52:30</publishTime>
+    </File>
+    <File Include="js/modernizr-2.6.2.js">
+      <publishTime>12/30/2014 13:52:30</publishTime>
+    </File>
+    <File Include="js/MoES_Validations.js">
+      <publishTime>10/27/2016 11:41:14</publishTime>
+    </File>
+    <File Include="js/NTCA.js">
+      <publishTime>03/06/2018 16:00:32</publishTime>
+    </File>
+    <File Include="js/Remove.js">
+      <publishTime>01/17/2018 18:07:44</publishTime>
+    </File>
+    <File Include="js/respond.js">
+      <publishTime>12/30/2014 13:52:30</publishTime>
+    </File>
+    <File Include="js/respond.min.js">
+      <publishTime>12/30/2014 13:52:30</publishTime>
+    </File>
+    <File Include="js/script.js">
+      <publishTime>12/30/2014 13:52:30</publishTime>
+    </File>
+    <File Include="js/ScrollableGridPlugin.js">
+      <publishTime>08/11/2016 10:53:50</publishTime>
+    </File>
+    <File Include="Log4Net.config">
+      <publishTime>12/30/2014 13:48:30</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>03/05/2018 17:13:12</publishTime>
+    </File>
+    <File Include="Main.Master">
+      <publishTime>02/27/2018 14:43:28</publishTime>
+    </File>
+    <File Include="nocookie.htm">
+      <publishTime>12/30/2014 13:52:50</publishTime>
+    </File>
+    <File Include="NTCA-RO/Alerts.aspx">
+      <publishTime>08/11/2016 11:03:42</publishTime>
+    </File>
+    <File Include="NTCA-RO/ApoDueForSubmission.aspx">
+      <publishTime>10/27/2016 11:41:12</publishTime>
+    </File>
+    <File Include="NTCA-RO/ApproveAPO.aspx">
+      <publishTime>09/26/2017 16:24:36</publishTime>
+    </File>
+    <File Include="NTCA-RO/CWWFeedback.aspx">
+      <publishTime>10/27/2016 11:04:22</publishTime>
+    </File>
+    <File Include="NTCA-RO/EditApo.aspx">
+      <publishTime>03/24/2017 15:08:55</publishTime>
+    </File>
+    <File Include="NTCA-RO/EditApoCopy.aspx">
+      <publishTime>02/01/2018 14:17:48</publishTime>
+    </File>
+    <File Include="NTCA-RO/FDFeedback.aspx">
+      <publishTime>08/11/2016 11:03:40</publishTime>
+    </File>
+    <File Include="NTCA-RO/FieldDirectorFeedback.aspx">
+      <publishTime>08/30/2017 16:23:28</publishTime>
+    </File>
+    <File Include="NTCA-RO/GenerateNTCAReports.aspx">
+      <publishTime>09/27/2017 17:06:32</publishTime>
+    </File>
+    <File Include="NTCA-RO/GenerateReports.aspx">
+      <publishTime>10/05/2016 10:46:28</publishTime>
+    </File>
+    <File Include="NTCA-RO/Home.aspx">
+      <publishTime>09/28/2017 15:02:02</publishTime>
+    </File>
+    <File Include="NTCA-RO/ListofReport.aspx">
+      <publishTime>08/11/2016 11:03:42</publishTime>
+    </File>
+    <File Include="NTCA-RO/ManageGuideLines.aspx">
+      <publishTime>10/27/2016 11:41:12</publishTime>
+    </File>
+    <File Include="NTCA-RO/ManageInstallment.aspx">
+      <publishTime>10/27/2016 11:41:12</publishTime>
+    </File>
+    <File Include="NTCA-RO/ManageNonRecurringRecurringRatio.aspx">
+      <publishTime>10/27/2016 11:41:12</publishTime>
+    </File>
+    <File Include="NTCA-RO/MonitoringCentral-StateShare.aspx">
+      <publishTime>10/27/2016 11:41:12</publishTime>
+    </File>
+    <File Include="NTCA-RO/NTCA-RO.master">
+      <publishTime>01/27/2017 10:55:36</publishTime>
+    </File>
+    <File Include="NTCA-RO/SendAlert.aspx">
+      <publishTime>10/05/2016 10:46:28</publishTime>
+    </File>
+    <File Include="NTCA-RO/UpdateAPOStatus.aspx">
+      <publishTime>10/27/2016 11:04:22</publishTime>
+    </File>
+    <File Include="NTCA-RO/ViewAPO.aspx">
+      <publishTime>09/28/2017 16:47:36</publishTime>
+    </File>
+    <File Include="NTCA-RO/ViewCheckList.aspx">
+      <publishTime>08/30/2017 16:42:42</publishTime>
+    </File>
+    <File Include="NTCA-RO/ViewCWWObligations.aspx">
+      <publishTime>08/11/2016 11:03:42</publishTime>
+    </File>
+    <File Include="NTCA-RO/ViewFieldDirectorObligations.aspx">
+      <publishTime>08/11/2016 11:03:40</publishTime>
+    </File>
+    <File Include="NTCA-RO/ViewQuarterlyReport.aspx">
+      <publishTime>09/06/2017 18:44:56</publishTime>
+    </File>
+    <File Include="NTCA-RO/ViewTigerReserveDetails.aspx">
+      <publishTime>08/11/2016 11:03:42</publishTime>
+    </File>
+    <File Include="NTCA-RO/ViewUtilizationCertificate.aspx">
+      <publishTime>10/27/2016 10:52:48</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/30/2014 13:48:30</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>03/09/2018 15:42:04</publishTime>
+    </File>
+    <File Include="Scripts/knockout-3.2.0.debug.js">
+      <publishTime>12/30/2014 13:51:52</publishTime>
+    </File>
+    <File Include="Scripts/knockout-3.2.0.js">
+      <publishTime>12/30/2014 13:51:52</publishTime>
+    </File>
+    <File Include="Secure.Master">
+      <publishTime>01/27/2017 10:55:36</publishTime>
+    </File>
+    <File Include="SessionExpired.aspx">
+      <publishTime>01/27/2017 10:55:32</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>02/27/2018 14:43:26</publishTime>
+    </File>
+    <File Include="Upload/UC/Final/UC.jpg">
+      <publishTime>08/11/2016 11:03:36</publishTime>
+    </File>
+    <File Include="Upload/UC/Provisional/Central Share 001.jpg">
+      <publishTime>08/11/2016 11:00:22</publishTime>
+    </File>
+    <File Include="Upload/UC/Provisional/State Share 001.jpg">
+      <publishTime>08/11/2016 11:00:22</publishTime>
+    </File>
+    <File Include="uploader.ashx">
+      <publishTime>06/02/2017 14:18:04</publishTime>
+    </File>
+    <File Include="UserControls/BackButton.ascx">
+      <publishTime>12/30/2014 13:52:16</publishTime>
+    </File>
+    <File Include="UserControls/EditProfile.ascx">
+      <publishTime>12/30/2014 13:52:16</publishTime>
+    </File>
+    <File Include="UserControls/FilterReport.ascx">
+      <publishTime>12/30/2014 13:52:16</publishTime>
+    </File>
+    <File Include="UserControls/ManageAllActivities.ascx">
+      <publishTime>08/11/2016 10:52:40</publishTime>
+    </File>
+    <File Include="UserControls/NTCAFooter.ascx">
+      <publishTime>02/28/2018 12:17:34</publishTime>
+    </File>
+    <File Include="UserControls/NTCAHeader.ascx">
+      <publishTime>08/11/2016 10:52:40</publishTime>
+    </File>
+    <File Include="UserControls/PrintButton.ascx">
+      <publishTime>12/30/2014 13:52:16</publishTime>
+    </File>
+    <File Include="UserControls/ShowGuidelines.ascx">
+      <publishTime>08/11/2016 10:52:40</publishTime>
+    </File>
+    <File Include="UserControls/ValidationMessage.ascx">
+      <publishTime>08/11/2016 10:52:40</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/09/2018 15:42:03</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>08/11/2016 10:52:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

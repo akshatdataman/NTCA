@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="FieldDirector.Master.cs"
+    Inherits="WiseThink.NTCA.Web.FieldDirector.FieldDirectorMaster" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContentPlaceHolder" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true" LoadScriptsBeforeUI="true">
+    </asp:ScriptManager>
+    <div class="container">
+        <%--Contain Menu of page--%>
+        <div class="navbar navbar-default " role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
+                            class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="menulink Home"><a href="FieldDirectorHome.aspx" class="dropdown-toggle ">Home</a>
+                        </li>
+                        <li class="menulink TigerReserve"><a href="TigerReserveDetails.aspx" class="dropdown-toggle ">Tiger Reserve Details</a>
+                        </li>
+                        <li class="menulink Submit"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Submit <b class="caret">
+                        </b></a>
+                            <ul class="dropdown-menu multi-level">
+                                <li class="menulink APO"><a class="" id="APOLink" href="SubmitAPONew.aspx">APO</a></li>
+                                <li class="menulink AdditionalAPO"><a class="" href="AdditionalAPO.aspx">Additional APO</a></li>
+                                <li class="dropdown-submenu menulink Expenditure"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Expenditure Report</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="menulink MonthylyReport"><a  href="SubmitQuarterlyReport.aspx?IsMonthly=true">Monthly Report</a></li>
+                                        <li class="menulink Peridic"><a  href="SubmitQuarterlyReport.aspx">Periodic Report</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menulink Download"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Download <b class="caret">
+                        </b></a>
+                            <ul class="dropdown-menu multi-level">
+                                <%--<li><a class="submenu"  href="DownloadActivities.aspx">Activity List</a></li>--%>
+                                <li class="menulink ActivityList"><a class="submenu" href="DownloadActivityList.aspx">Activity List</a></li>
+                                <li class="menulink RelevantAPO"><a class="submenu" href="RelevantAPODocuments.aspx">Relevant APO Documents</a></li>
+                                <%--<li><a class="submenu"  href="DownloadExpenditureReport.aspx">Expenditure Reports</a></li>--%>
+                                <li class="menulink Expenditure"><a class="submenu" href="DownloadExpendituresReport.aspx">Expenditure Report</a></li>
+                            </ul>
+                        </li>
+                        <li class="menulink Alerts"><a class="" href="FieldDirectorAlerts.aspx">Alerts</a> </li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="dvmarquee" runat="server" class="row">
+            <marquee>
+  <label id="lblApoTimeline" runat="server" style="font-size:16px; color:Red;">There are 20 days left to submit the Apo for this financial year!!!</label>
+    </marquee>
+        </div>
+        <asp:ContentPlaceHolder ID="FieldDirectorPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>

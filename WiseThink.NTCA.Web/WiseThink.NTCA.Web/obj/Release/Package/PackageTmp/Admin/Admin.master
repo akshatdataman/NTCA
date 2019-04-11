@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Admin.master.cs"
+    Inherits="WiseThink.NTCA.Web.Admin.AdminMaster" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContentPlaceHolder" runat="server">
+    <div class="container">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+        <%--Contain Menu of page--%>
+        <nav class="navbar navbar-default" role="navigation">
+  
+   <div id="nav">
+      <ul class="nav navbar-nav">
+         <li class=""><a class ="menu" href="Home.aspx">Home</a></li>
+       
+
+        <%-- <li class="dropdown">
+            <a href="#" class="dropdown-toggle menu" data-toggle="dropdown">
+             Manage Masters              
+            </a>
+            <ul class="dropdown-menu table-responsive">
+               <li><a class ="submenu" href="Users.aspx">Manage Users</a></li>
+               <li><a class ="submenu" href="StateMaster.aspx">Manage State</a></li>
+               <li><a class ="submenu" href="TigerReserve.aspx">Manage Tiger Reserve</a></li>               
+               <li><a class ="submenu" href="ManageActivities.aspx">Manage Activities</a></li>               
+            </ul>
+         </li>--%>        
+          <li><a  class = "menu" href="ManageDesignation.aspx">Manage Designation</a></li>
+          <li><a  class = "menu" href="ManageObligations.aspx">Manage Obligation</a></li>
+          <li><a  class = "menu" href="Alerts.aspx">Alerts</a></li>
+          <li><a class = "menu" href="AuditTrail.aspx">Audit Trail Report</a></li>
+          <li><a class = "menu" href="LoginHistory.aspx">Login History</a></li>
+      </ul>
+   </div>
+</nav>
+    </div>
+    <div class="container">
+        <asp:ContentPlaceHolder ID="SuperAdminPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>
