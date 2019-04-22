@@ -152,3 +152,25 @@ D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseT
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.BAL\obj\Release\WiseThink.NTCA.BAL.csproj.ResolveComReference.cache
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.BAL\obj\Release\WiseThink.NTCA.BAL.dll
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.BAL\obj\Release\WiseThink.NTCA.BAL.pdb
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\WiseThink.NTCA.BAL.dll
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\WiseThink.NTCA.BAL.pdb
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\itextsharp.dll
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\WiseThink.NTCA.DAL.dll
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\WiseThink.NTCA.DataEntity.dll
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\log4net.dll
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\itextsharp.xml
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\WiseThink.NTCA.DAL.pdb
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\WiseThink.NTCA.DataEntity.pdb
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\log4net.xml
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\NTCA\WiseThink.NTCA.BAL\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\NTCA\WiseThink.NTCA.BAL\obj\Release\WiseThink.NTCA.BAL.csprojResolveAssemblyReference.cache
+D:\NTCA\WiseThink.NTCA.BAL\obj\Release\Interop.ActiveDs.dll
+D:\NTCA\WiseThink.NTCA.BAL\obj\Release\WiseThink.NTCA.BAL.csproj.ResolveComReference.cache
+D:\NTCA\WiseThink.NTCA.BAL\obj\Release\WiseThink.NTCA.BAL.dll
+D:\NTCA\WiseThink.NTCA.BAL\obj\Release\WiseThink.NTCA.BAL.pdb

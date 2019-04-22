@@ -26,7 +26,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
         public bool IsEdit = false;
         string activityItemId = string.Empty;
         APO oApo = new APO();
-        int rowIndexTemp;
+        //int rowIndexTemp;
         public static APO objAPO;
         public static SubmitAPO1 SessionAPO = new SubmitAPO1();
         public static int TigerReserveID;
@@ -1866,7 +1866,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                 string strgps = gps.Text;
                 APOBAL.Instance.UpdateGPS(_gpsId, oApo.TigerReserveId, activityItemId, strgps);
                 cgvGps.EditIndex = -1;
-                string strSuccess = "GPS has been updated successfully.";
+                //string strSuccess = "GPS has been updated successfully.";
                 GetGPSDetails(oApo.TigerReserveId, Convert.ToInt32(activityItemId));
             }
             catch (Exception ex)

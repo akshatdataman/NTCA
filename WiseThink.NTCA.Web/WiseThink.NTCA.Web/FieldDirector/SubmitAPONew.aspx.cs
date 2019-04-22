@@ -23,12 +23,12 @@ namespace WiseThink.NTCA.Web.FieldDirector
         public bool IsEdit = false;
         string activityItemId = string.Empty;
         APO oApo = new APO();
-        int rowIndexTemp;
+        //int rowIndexTemp;
         public static APO objAPO;
         public static SubmitAPO1 SessionAPO = new SubmitAPO1();
         //public static int TigerReserveID;
         string gvUniqueID = String.Empty;
-        int gvNewPageIndex = 0;
+        //int gvNewPageIndex = 0;
         int gvEditIndex = -1;
         decimal NRCoreTotal = 0;
         decimal NRBufferTotal = 0;
@@ -480,14 +480,14 @@ namespace WiseThink.NTCA.Web.FieldDirector
                 TextBox NRCoreTotalText = (gvNRCore.FooterRow.FindControl("txtNRCoreTotal") as TextBox);
                 NRCoreTotalText.Text = NRCoreTotal.ToString();
             }
-            catch (Exception ex)
+            catch
             { }
             try
             {
                 TextBox NRBufferTotalText = (gvNRBuffer.FooterRow.FindControl("txtNRBufferTotal") as TextBox);
                 NRBufferTotalText.Text = NRBufferTotal.ToString();
             }
-            catch (Exception ex)
+            catch
             { }
 
             try
@@ -495,13 +495,13 @@ namespace WiseThink.NTCA.Web.FieldDirector
                 TextBox RCoreTotalText = (gvRCore.FooterRow.FindControl("txtRCoreTotal") as TextBox);
                 RCoreTotalText.Text = RCoreTotal.ToString();
             }
-            catch (Exception ex) { }
+            catch { }
             try
             {
                 TextBox RBufferTotalText = (gvRBuffer.FooterRow.FindControl("txtRBufferTotal") as TextBox);
                 RBufferTotalText.Text = RBufferTotal.ToString();
             }
-            catch (Exception ex) { }
+            catch { }
 
         }
 
@@ -1178,7 +1178,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                 string strgps = gps.Text;
                 APOBAL.Instance.UpdateGPS(_gpsId, oApo.TigerReserveId, activityItemId, strgps);
                 cgvGps.EditIndex = -1;
-                string strSuccess = "GPS has been updated successfully.";
+                //string strSuccess = "GPS has been updated successfully.";
                 GetGPSDetails(oApo.TigerReserveId, Convert.ToInt32(activityItemId), SubItemName.Text.Trim().ToString());
             }
             catch (Exception ex)
@@ -1347,7 +1347,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                     ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "File Error", "alert('file does not exists');", true);
                 }
             }
-            catch (Exception ex)
+            catch
             {
 
             }
@@ -1381,7 +1381,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                     ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "File Error", "alert('file does not exists');", true);
                 }
             }
-            catch (Exception ex)
+            catch
             {
 
             }
@@ -1415,7 +1415,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                     ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "File Error", "alert('file does not exists');", true);
                 }
             }
-            catch (Exception ex)
+            catch
             {
 
             }
@@ -1449,7 +1449,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                     ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "File Error", "alert('file does not exists');", true);
                 }
             }
-            catch (Exception ex)
+            catch
             {
 
             }
@@ -1552,7 +1552,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
             Session["IsEdit"] = null;
             Response.Redirect("Home.aspx", false);
         }
-        Decimal totalRCore = 0.0m;
+        //Decimal totalRCore = 0.0m;
         protected void gvRCore_RowCreated(object sender, GridViewRowEventArgs e)
         {
             // Adding a column manually once the header created
@@ -1701,7 +1701,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
             gv.DataSource = ds;
             gv.DataBind();
         }
-        Decimal totalRbuffer = 0.0m;
+        //Decimal totalRbuffer = 0.0m;
         protected void gvRBuffer_RowDataBound(object sender, GridViewRowEventArgs e)
         {
             GridViewRow row = e.Row;

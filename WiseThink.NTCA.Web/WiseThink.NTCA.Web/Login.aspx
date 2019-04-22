@@ -10,7 +10,7 @@
         @font-face {
             font-family: 'myCustomfont';
             src: url('myCustomfont.eot');
-            src: url('myCustomfont?#iefix') format('embedded-opentype'), url('myCustomfont.woff') format('woff'), url('myCustomfont.ttf') format('truetype'), url('myCustomfont.svg#myCustomfont') format('svg');
+            /*src: url('myCustomfont?#iefix') format('embedded-opentype'), url('myCustomfont.woff') format('woff'), url('myCustomfont.ttf') format('truetype'), url('myCustomfont.svg#myCustomfont') format('svg');*/
             font-weight: normal;
             font-style: normal;
         }
@@ -186,8 +186,8 @@
                     <div class="col-sm-7">
 
                         <asp:HiddenField ID="hdnPassword" runat="server" />
-                        <div class="fake-input" tabindex="-1"></div>
-                        <cc:CustomTextBox ID="txtPassword" CssClass="real-input" runat="server" MaxLength="32" autocomplete="off" ClientIDMode="Static" name="pass_word"></cc:CustomTextBox>
+                        <div class="fake-input"></div>
+                        <cc:CustomTextBox ID="txtPassword" CssClass="real-input" runat="server" tabindex="-1" MaxLength="32" autocomplete="off" ClientIDMode="Static" name="pass_word"></cc:CustomTextBox>
                         <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="txtPassword"
                             ForeColor="#FF3300" ValidationGroup="LoginUserValidationGroup" ErrorMessage="Password is required."></asp:RequiredFieldValidator>
                     </div>

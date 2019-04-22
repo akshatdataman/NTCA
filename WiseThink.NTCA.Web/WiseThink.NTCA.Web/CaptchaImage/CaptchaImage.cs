@@ -110,7 +110,7 @@ namespace WiseThink.NTCA.CaptchaImage
                 this.familyName = familyName;
                 font.Dispose();
             }
-            catch (Exception ex)
+            catch
             {
                 this.familyName = System.Drawing.FontFamily.GenericSerif.Name;
             }

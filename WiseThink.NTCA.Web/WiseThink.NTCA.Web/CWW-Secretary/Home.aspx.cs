@@ -199,7 +199,7 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/CWW-Secretary/EditAPO.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/EditAPO.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -208,7 +208,7 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/CWW-Secretary/ViewFieldDirectorObligations.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/ViewFieldDirectorObligations.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -217,7 +217,7 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/CWW-Secretary/ViewUtilizationCertificate.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/ViewUtilizationCertificate.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -226,7 +226,7 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/CWW-Secretary/ViewTigerReserveDetails.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/ViewTigerReserveDetails.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -235,7 +235,7 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/CWW-Secretary/ViewCheckList.aspx?callfrom=SubmitAPO", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/ViewCheckList.aspx?callfrom=SubmitAPO", false));
                     break;
             }
             switch (e.CommandName)
@@ -244,7 +244,7 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/CWW-Secretary/UpdateAPOStatus.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/UpdateAPOStatus.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -253,7 +253,7 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/CWW-Secretary/ApproveAPO.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/ApproveAPO.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -263,7 +263,7 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/CWW-Secretary/ObligationCWW.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/ObligationCWW.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -447,7 +447,7 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
             {
                 case "Edit":
                     Session["IsEdit"] = true;
-                    Response.Redirect(string.Format("~/CWW-Secretary/EditAPO.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/EditAPO.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -456,7 +456,7 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/CWW-Secretary/ViewFieldDirectorObligations.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/ViewFieldDirectorObligations.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -465,7 +465,7 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/CWW-Secretary/ViewUtilizationCertificate.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/ViewUtilizationCertificate.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -474,7 +474,7 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/CWW-Secretary/ViewTigerReserveDetails.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/ViewTigerReserveDetails.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -483,7 +483,7 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/CWW-Secretary/UpdateAPOStatus.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/UpdateAPOStatus.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -492,14 +492,14 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/CWW-Secretary/ApproveAPO.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/ApproveAPO.aspx", false));
                     break;
             }
             switch (e.CommandName)
             {
                 case "Submit":
                     //Session["IsEdit"] = true;
-                    Response.Redirect(string.Format("~/CWW-Secretary/ObligationCWW.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/CWW-Secretary/ObligationCWW.aspx", false));
                     break;
             }
             switch (e.CommandName)

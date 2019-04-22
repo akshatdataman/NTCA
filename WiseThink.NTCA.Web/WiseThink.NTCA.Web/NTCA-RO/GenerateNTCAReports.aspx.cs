@@ -115,9 +115,9 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 }
                 
             }
-            catch(Exception ex)
+            catch
             {
-                throw ex;
+                throw;
             }
         }
 
@@ -294,9 +294,9 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 ddlSubItem.DataBind();
                 ddlSubItem.Items.Insert(0, "Select Sub Activity Item");
             }
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                throw;
             }
         }
 

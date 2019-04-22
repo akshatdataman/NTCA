@@ -12,7 +12,6 @@ using WiseThink.NTCA.DataEntity.Entities;
 using WiseThink.NTCA.App_Code;
 using System.Configuration;
 using System.Net;
-using System.Linq;
 
 namespace WiseThink.NTCA.Web.FieldDirector
 {
@@ -273,9 +272,9 @@ namespace WiseThink.NTCA.Web.FieldDirector
                         if (bytes[0] == 37 && bytes[1] == 80)
                         {
                             fs.Close();
-                            br.Close();
-                            fs.Dispose();
-                            br.Dispose();
+                            //br.Close();
+                            //fs.Dispose();
+                            //br.Dispose();
                             fuUploadFinalUC.PostedFile.InputStream.Close();
                             bytes = null;
                            

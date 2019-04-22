@@ -30,7 +30,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
 
                 }
             }
-            catch (Exception ex)
+            catch
             {
                 return;
             }

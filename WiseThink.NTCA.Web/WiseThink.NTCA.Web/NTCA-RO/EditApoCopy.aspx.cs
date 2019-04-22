@@ -21,7 +21,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
     public partial class EditApoCopy : BasePage
     {
         string gvUniqueID = String.Empty;
-        int gvNewPageIndex = 0;
+        //int gvNewPageIndex = 0;
         int gvEditIndex = -1;
         Boolean IsPageRefresh;
         DataTable dt;
@@ -36,7 +36,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
         decimal NRBufferTotal = 0;
         decimal RCoreTotal = 0;
         decimal RBufferTotal = 0;
-        Decimal totalNRbuffer = 0.0m;
+        //Decimal totalNRbuffer = 0.0m;
         [System.Web.Services.WebMethod]
         public static string SetModelPopupFlag(string strpath)
         {
@@ -348,25 +348,25 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 TextBox NRCoreTotalText = (gvNRCore.FooterRow.FindControl("txtNRCoreTotal") as TextBox);
                 NRCoreTotalText.Text = NRCoreTotal.ToString();
             }
-            catch (Exception ex) { }
+            catch { }
             try
             {
                 TextBox NRBufferTotalText = (gvNRBuffer.FooterRow.FindControl("txtNRBufferTotal") as TextBox);
                 NRBufferTotalText.Text = NRBufferTotal.ToString();
             }
-            catch (Exception ex) { }
+            catch { }
             try
             {
                 TextBox RCoreTotalText = (gvRCore.FooterRow.FindControl("txtRCoreTotal") as TextBox);
                 RCoreTotalText.Text = RCoreTotal.ToString();
             }
-            catch (Exception ex) { }
+            catch { }
             try
             {
                 TextBox RBufferTotalText = (gvRBuffer.FooterRow.FindControl("txtRBufferTotal") as TextBox);
                 RBufferTotalText.Text = RBufferTotal.ToString();
             }
-            catch (Exception ex) { }
+            catch { }
 
 
             //ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "Alert", "SetTotalValues('" + NRCoreTotal + "','" + NRBufferTotal + "','" + RCoreTotal + "','" + RBufferTotal + "');", true);
@@ -460,7 +460,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     //lblMessage.Text = "No value selected for update!";
                 }
             }
-            catch (SqlException ex)
+            catch
             {
                 return;
                 //lblMessage.Text = "error" + ex.ToString();
@@ -818,14 +818,14 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     TextBox NRCoreTotalText = (gvNRCore.FooterRow.FindControl("txtNRCoreTotal") as TextBox);
                     NRCoreTotalText.Text = NRCoreTotal.ToString();
                 }
-                catch (Exception ex)
+                catch
                 { }
                 try
                 {
                     TextBox NRBufferTotalText = (gvNRBuffer.FooterRow.FindControl("txtNRBufferTotal") as TextBox);
                     NRBufferTotalText.Text = NRBufferTotal.ToString();
                 }
-                catch (Exception ex)
+                catch
                 { }
 
                 try
@@ -833,13 +833,13 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     TextBox RCoreTotalText = (gvRCore.FooterRow.FindControl("txtRCoreTotal") as TextBox);
                     RCoreTotalText.Text = RCoreTotal.ToString();
                 }
-                catch (Exception ex) { }
+                catch { }
                 try
                 {
                     TextBox RBufferTotalText = (gvRBuffer.FooterRow.FindControl("txtRBufferTotal") as TextBox);
                     RBufferTotalText.Text = RBufferTotal.ToString();
                 }
-                catch (Exception ex) { }
+                catch { }
             }
         }
 
@@ -1189,7 +1189,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 string strgps = gps.Text;
                 APOBAL.Instance.UpdateGPS(_gpsId, oApo.TigerReserveId, activityItemId, strgps);
                 cgvGps.EditIndex = -1;
-                string strSuccess = "GPS has been updated successfully.";
+                //string strSuccess = "GPS has been updated successfully.";
                 GetGPSDetails(oApo.TigerReserveId, Convert.ToInt32(activityItemId), SubItemName.Text.Trim().ToString());
             }
             catch (Exception ex)
@@ -1359,7 +1359,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     //Page.ClientScript.RegisterStartupScript(GetType(), "CallMyFunction", "alert('file not found on server');", true);
                 }
             }
-            catch (Exception ex)
+            catch
             {
 
             }
@@ -1393,7 +1393,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     // Page.ClientScript.RegisterStartupScript(GetType(), "CallMyFunction", "alert('file not found on server');", true);
                 }
             }
-            catch (Exception ex)
+            catch
             {
 
             }
@@ -1427,7 +1427,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     // Page.ClientScript.RegisterStartupScript(GetType(), "CallMyFunction", "alert('file not found on server');", true);
                 }
             }
-            catch (Exception ex)
+            catch
             {
 
             }
@@ -1461,7 +1461,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     //Page.ClientScript.RegisterStartupScript(GetType(), "CallMyFunction", "alert('file not found on server');", true);
                 }
             }
-            catch (Exception ex)
+            catch
             {
 
             }
@@ -1564,7 +1564,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
             Session["IsEdit"] = null;
             Response.Redirect("Home.aspx", false);
         }
-        Decimal totalRCore = 0.0m;
+        //Decimal totalRCore = 0.0m;
         protected void gvRCore_RowCreated(object sender, GridViewRowEventArgs e)
         {
             // Adding a column manually once the header created
@@ -1707,7 +1707,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 txtTotal.Text = RCoreTotal.ToString(); //total.ToString();
             }
         }
-        Decimal totalRbuffer = 0.0m;
+        //Decimal totalRbuffer = 0.0m;
         protected void gvRBuffer_RowDataBound(object sender, GridViewRowEventArgs e)
         {
             GridViewRow row = e.Row;
@@ -2212,7 +2212,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     noofitems = Convert.ToInt32(txt.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             if (txt1.Text.Length > 0)
@@ -2221,7 +2221,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     unitPrice = Convert.ToDecimal(txt1.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             txt2.Text = Convert.ToString(noofitems * unitPrice);
@@ -2246,7 +2246,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     noofitems = Convert.ToInt32(txt.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             if (txt1.Text.Length > 0)
@@ -2255,7 +2255,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     unitPrice = Convert.ToDecimal(txt1.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             txt2.Text = Convert.ToString(noofitems * unitPrice);
@@ -2279,7 +2279,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     noofitems = Convert.ToInt32(txt.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             if (txt1.Text.Length > 0)
@@ -2288,7 +2288,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     unitPrice = Convert.ToDecimal(txt1.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             txt2.Text = Convert.ToString(noofitems * unitPrice);
@@ -2312,7 +2312,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     noofitems = Convert.ToInt32(txt.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             if (txt1.Text.Length > 0)
@@ -2321,7 +2321,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     unitPrice = Convert.ToDecimal(txt1.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             txt2.Text = Convert.ToString(noofitems * unitPrice);
@@ -2345,7 +2345,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     noofitems = Convert.ToInt32(txt.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             if (txt1.Text.Length > 0)
@@ -2354,7 +2354,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     unitPrice = Convert.ToDecimal(txt1.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             txt2.Text = Convert.ToString(noofitems * unitPrice);
@@ -2378,7 +2378,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     noofitems = Convert.ToInt32(txt.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             if (txt1.Text.Length > 0)
@@ -2387,7 +2387,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     unitPrice = Convert.ToDecimal(txt1.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             txt2.Text = Convert.ToString(noofitems * unitPrice);
@@ -2411,7 +2411,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     noofitems = Convert.ToInt32(txt.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             if (txt1.Text.Length > 0)
@@ -2420,7 +2420,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     unitPrice = Convert.ToDecimal(txt1.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             txt2.Text = Convert.ToString(noofitems * unitPrice);
@@ -2444,7 +2444,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     noofitems = Convert.ToInt32(txt.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             if (txt1.Text.Length > 0)
@@ -2453,7 +2453,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                 {
                     unitPrice = Convert.ToDecimal(txt1.Text);
                 }
-                catch (Exception ex) { }
+                catch { }
             }
 
             txt2.Text = Convert.ToString(noofitems * unitPrice);

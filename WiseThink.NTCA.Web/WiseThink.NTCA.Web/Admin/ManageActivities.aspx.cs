@@ -562,9 +562,9 @@ namespace WiseThink.NTCA.Web.Admin
                 GetActivitySubItems();
                 clear();
             }
-            catch(Exception ex)
+            catch
             {
-                throw ex;
+                throw;
             }
         }
 
@@ -595,9 +595,9 @@ namespace WiseThink.NTCA.Web.Admin
                 ddlActivityForActivitySubItem.DataBind();
                 ddlActivityForActivitySubItem.Items.Insert(0, "Select Activity Item");
             }
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                throw;
             }
         }
 
@@ -635,7 +635,7 @@ namespace WiseThink.NTCA.Web.Admin
                 GetActivitySubItemSearchData();
 
             }
-            catch(Exception ex)
+            catch
             {
 
             }
@@ -854,9 +854,9 @@ namespace WiseThink.NTCA.Web.Admin
                 ddlSubItem.DataBind();
                 ddlSubItem.Items.Insert(0, "Select Activity Item");
             }
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                throw;
             }
         }
 
@@ -883,9 +883,9 @@ namespace WiseThink.NTCA.Web.Admin
                 ddlItemActivityForActivitySubItem.DataBind();
                 ddlItemActivityForActivitySubItem.Items.Insert(0, "Select Activity Item");
             }
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                throw;
             }
         }
 

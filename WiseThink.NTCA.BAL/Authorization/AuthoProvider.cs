@@ -87,7 +87,7 @@ namespace WiseThink.NTCA.BAL.Authorization
                 }
 
             }
-            catch (Exception e)
+            catch
             {
                 throw;
             }

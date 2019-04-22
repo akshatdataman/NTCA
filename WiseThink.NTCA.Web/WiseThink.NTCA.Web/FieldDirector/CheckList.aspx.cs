@@ -388,7 +388,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                     }
                 }
             }
-            catch (Exception ex)
+            catch
             {
                 return;
             }
@@ -728,9 +728,9 @@ namespace WiseThink.NTCA.Web.FieldDirector
                         if (bytes[0] == 37 && bytes[1] == 80)
                         {
                             fs.Close();
-                            br.Close();
-                            fs.Dispose();
-                            br.Dispose();
+                            //br.Close();
+                            //fs.Dispose();
+                            //br.Dispose();
                             fuUploadProvisionalUC.PostedFile.InputStream.Close();
                             bytes = null;
 
@@ -795,7 +795,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                     response.End();
                 }
             }
-            catch (Exception ex)
+            catch
             {
                 return;
             }

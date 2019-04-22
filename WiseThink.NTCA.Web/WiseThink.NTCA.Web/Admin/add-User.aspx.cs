@@ -363,7 +363,8 @@ namespace WiseThink.NTCA.Admin
             string returnValue = string.Empty;
             string connection = ConfigurationManager.ConnectionStrings["NtcaConnectionString"].ToString();
             SqlConnection con = new SqlConnection(connection);
-            SqlCommand sqlCmd = new SqlCommand("select count(UserName) from dbo.UserProfile where UserName='" + username + "'", con);
+            SqlCommand sqlCmd = new SqlCommand("select count(UserName) from dbo.UserProfile where UserName=@UserName", con);
+            sqlCmd.Parameters.AddWithValue("@UserName", username);
             con.Open();
             int result = int.Parse((sqlCmd.ExecuteScalar().ToString()));
             if (result == 1)

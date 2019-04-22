@@ -608,7 +608,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     string APOFileId = clbEdit.CommandArgument;
                     Session["APOFileId"] = APOFileId;
                     Session["IsEdit"] = true;
-                    Response.Redirect(string.Format("~/NTCA-RO/EditApoCopy.aspx?Edit=True", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/EditApoCopy.aspx?Edit=True", false));
                     break;
             }
             switch (e.CommandName)
@@ -617,7 +617,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/ViewFieldDirectorObligations.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/ViewFieldDirectorObligations.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -627,7 +627,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/ApproveAPO.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/ApproveAPO.aspx", false));
 
                     break;
 
@@ -638,7 +638,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/ViewUtilizationCertificate.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/ViewUtilizationCertificate.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -647,7 +647,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/FDFeedback.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/FDFeedback.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -656,7 +656,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/ViewCWWObligations.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/ViewCWWObligations.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -666,7 +666,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
                     Session["CallFrom"] = "ViewAPO";
-                    Response.Redirect(string.Format("~/NTCA-RO/ViewCheckList.aspx?callFrom=SubmitAPO", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/ViewCheckList.aspx?callFrom=SubmitAPO", false));
                     break;
             }
             switch (e.CommandName)
@@ -675,7 +675,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/UpdateAPOStatus.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/UpdateAPOStatus.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -684,7 +684,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/ViewTigerReserveDetails.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/ViewTigerReserveDetails.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -693,7 +693,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/CWWFeedback.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/CWWFeedback.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -788,7 +788,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
             {
                 case "Edit":
                     Session["IsEdit"] = true;
-                    Response.Redirect(string.Format("~/NTCA-RO/EditApo.aspx?Edit=True", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/EditApo.aspx?Edit=True", false));
                     break;
             }
             switch (e.CommandName)
@@ -797,7 +797,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/ViewFieldDirectorObligations.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/ViewFieldDirectorObligations.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -807,7 +807,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/ApproveAPO.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/ApproveAPO.aspx", false));
 
                     break;
 
@@ -818,7 +818,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/ViewUtilizationCertificate.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/ViewUtilizationCertificate.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -827,7 +827,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/FDFeedback.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/FDFeedback.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -836,7 +836,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/ViewCWWObligations.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/ViewCWWObligations.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -845,7 +845,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/UpdateAPOStatus.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/UpdateAPOStatus.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -854,7 +854,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/ViewTigerReserveDetails.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/ViewTigerReserveDetails.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -863,7 +863,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/NTCA-RO/CWWFeedback.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/CWWFeedback.aspx", false));
                     break;
             }
             switch (e.CommandName)

@@ -14,7 +14,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
 {
     public partial class SendAlert : BasePage
     {
-        int _userId = 0;
+        //int _userId = 0;
         protected void Page_Load(object sender, EventArgs e)
         {
             try
@@ -25,7 +25,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                     UserBAL.Instance.InsertAuditTrailDetail("Visited Send Alert Page", "Alerts");
                 }
             }
-            catch (Exception ex)
+            catch
             { 
             }
         }

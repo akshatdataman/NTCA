@@ -26,7 +26,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
         public bool IsEdit = false;
         string activityItemId = string.Empty;
         APO oApo = new APO();
-        int rowIndexTemp;
+        //int rowIndexTemp;
         public static APO objAPO;
         public static AdditionalAPO SessionAPO = new AdditionalAPO();
         public static int TigerReserveID;
@@ -836,14 +836,14 @@ namespace WiseThink.NTCA.Web.FieldDirector
                 TextBox NRCoreTotalText = (gvNRCore.FooterRow.FindControl("txtSubTotal") as TextBox);
                 NRCoreTotalText.Text = NRCoreTotal.ToString();
             }
-            catch (Exception ex)
+            catch
             { }
             try
             {
                 TextBox NRBufferTotalText = (gvNRBuffer.FooterRow.FindControl("txtSubTotal") as TextBox);
                 NRBufferTotalText.Text = NRBufferTotal.ToString();
             }
-            catch (Exception ex)
+            catch
             { }
 
             try
@@ -851,13 +851,13 @@ namespace WiseThink.NTCA.Web.FieldDirector
                 TextBox RCoreTotalText = (gvRCore.FooterRow.FindControl("txtSubTotal") as TextBox);
                 RCoreTotalText.Text = RCoreTotal.ToString();
             }
-            catch (Exception ex) { }
+            catch { }
             try
             {
                 TextBox RBufferTotalText = (gvRBuffer.FooterRow.FindControl("txtSubTotal") as TextBox);
                 RBufferTotalText.Text = RBufferTotal.ToString();
             }
-            catch (Exception ex) { }
+            catch { }
 
         }
 
@@ -921,7 +921,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                                     if (oApo.SubItem.ToString() != null)
                                         subItemnames = oApo.SubItem.ToString();
                                 }
-                                catch (Exception ex) { }
+                                catch { }
 
                                 DataSet dsGps = APOBAL.Instance.GetAdditionalApoGPS(oApo.TigerReserveId, Convert.ToInt32(lblActivityItemId.Text),"");
                                 if (dsGps.Tables[0].Rows.Count > 0)
@@ -1586,7 +1586,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                 string strgps = gps.Text;
                 APOBAL.Instance.UpdateAdditionalApoGPS(_gpsId, oApo.TigerReserveId, activityItemId, strgps);
                 cgvGps.EditIndex = -1;
-                string strSuccess = "GPS has been updated successfully.";
+                //string strSuccess = "GPS has been updated successfully.";
                 GetGPSDetails(oApo.TigerReserveId, Convert.ToInt32(activityItemId), oApo.SubItem.ToString());
             }
             catch (Exception ex)

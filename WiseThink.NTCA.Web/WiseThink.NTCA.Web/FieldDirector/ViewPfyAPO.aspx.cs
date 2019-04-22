@@ -21,7 +21,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
 {
     public partial class ViewPfyAPO : BasePage
     {
-        int tigerReserveId, stateId;
+        int tigerReserveId; //stateId;
         string currentFinancialYear = string.Empty;
         string previousFinancialYear = string.Empty;
         int previousApoFileId;

@@ -118,7 +118,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Items;
+        protected new global::System.Web.UI.HtmlControls.HtmlGenericControl Items;
         
         /// <summary>
         /// lblActivity control.

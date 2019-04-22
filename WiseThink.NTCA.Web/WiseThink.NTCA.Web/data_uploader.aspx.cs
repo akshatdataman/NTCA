@@ -4,11 +4,12 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System;
 using log4net;
 using System.Web.Configuration;
 using System.IO;
 using System.Text.RegularExpressions;
+using System.Web.Services;
+using System.Web.Script.Services;
 
 namespace WiseThink.NTCA.Web
 {
@@ -41,9 +42,9 @@ namespace WiseThink.NTCA.Web
                     }
                     int extensionCount = 0;
                     string[] splitFile = filenname.Split('.');
-                    if(splitFile.Length<=2)
+                    if (splitFile.Length <= 2)
                     {
-                        if(r.IsMatch(filenname))
+                        if (r.IsMatch(filenname))
                         {
                             ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "Sorry! cannot upload, file name should be only alphanumeric.", "ShowAlertFileExtension()", true);
                             return;
@@ -69,9 +70,9 @@ namespace WiseThink.NTCA.Web
                                     bytes[0] == 60 && bytes[1] == 63 || bytes[0] == 80 && bytes[1] == 75 || bytes[0] == 208 && bytes[1] == 207)
                                 {
                                     fs.Close();
-                                    br.Close();
-                                    fs.Dispose();
-                                    br.Dispose();
+                                    //br.Close();
+                                    //fs.Dispose();
+                                    //br.Dispose();
                                     Request.Files[x].InputStream.Close();
                                     bytes = null;
                                 }
@@ -93,7 +94,7 @@ namespace WiseThink.NTCA.Web
                     else
                     {
                         //Response.Write("<script>alert('Hello');</script>");
-                        //throw new System.FormatException("Sorry! cannot upload, file name contains multiple dots.");
+                        throw new System.FormatException("Sorry! cannot upload, file name contains multiple dots.");
                         //ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "showalert", "alert('Sorry! cannot upload, file name contains multiple dots.');", true);
                     }
                 }

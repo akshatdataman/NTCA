@@ -458,3 +458,36 @@ D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseT
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.Scheduler\obj\Debug\WiseThink.Scheduler.csprojResolveAssemblyReference.cache
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.Scheduler\obj\Debug\WiseThink.Scheduler.dll
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.Scheduler\obj\Debug\WiseThink.Scheduler.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Debug\WiseThink.Scheduler.dll
+D:\NTCA\WiseThink.Scheduler\bin\Debug\WiseThink.Scheduler.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Common.Logging.Core.dll
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Common.Logging.dll
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Notifications.dll
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Quartz.dll
+D:\NTCA\WiseThink.Scheduler\bin\Debug\WiseThink.NTCA.BAL.dll
+D:\NTCA\WiseThink.Scheduler\bin\Debug\WiseThink.NTCA.DataEntity.dll
+D:\NTCA\WiseThink.Scheduler\bin\Debug\WiseThink.NTCA.DAL.dll
+D:\NTCA\WiseThink.Scheduler\bin\Debug\itextsharp.dll
+D:\NTCA\WiseThink.Scheduler\bin\Debug\log4net.dll
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\NTCA\WiseThink.Scheduler\bin\Debug\WiseThink.NTCA.BAL.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Notifications.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Common.Logging.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Common.Logging.xml
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Common.Logging.Core.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Common.Logging.Core.xml
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Quartz.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Quartz.xml
+D:\NTCA\WiseThink.Scheduler\bin\Debug\WiseThink.NTCA.DAL.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Debug\itextsharp.xml
+D:\NTCA\WiseThink.Scheduler\bin\Debug\log4net.xml
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\NTCA\WiseThink.Scheduler\obj\Debug\WiseThink.Scheduler.csprojResolveAssemblyReference.cache
+D:\NTCA\WiseThink.Scheduler\obj\Debug\WiseThink.Scheduler.dll
+D:\NTCA\WiseThink.Scheduler\obj\Debug\WiseThink.Scheduler.pdb

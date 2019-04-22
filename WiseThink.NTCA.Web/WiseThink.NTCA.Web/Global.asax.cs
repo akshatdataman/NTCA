@@ -54,7 +54,7 @@ namespace WiseThink.NTCA.Web
 
         protected void Application_BeginRequest(object sender, EventArgs e)
         {
-            HttpContext.Current.Response.AddHeader("x-frame-options", "DENY");
+           HttpContext.Current.Response.AddHeader("x-frame-options", "DENY");
             Response.Cache.SetCacheability(HttpCacheability.NoCache);
             Response.Cache.SetExpires(DateTime.UtcNow.AddHours(-1));
             Response.Cache.SetNoStore();

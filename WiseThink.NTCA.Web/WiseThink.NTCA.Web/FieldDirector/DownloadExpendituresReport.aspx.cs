@@ -69,7 +69,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                 ExportDivContentToMsExcel();
                 
             }
-            catch (Exception ex)
+            catch
             {
                 return;
             }
@@ -275,7 +275,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                     BindGrid();
                 }
             }
-            catch(Exception ex)
+            catch
             {
 
             }
@@ -293,7 +293,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                     BindGrid();
                 }
             }
-            catch (Exception ex)
+            catch
             {
 
             }

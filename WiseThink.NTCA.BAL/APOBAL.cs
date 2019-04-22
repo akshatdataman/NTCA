@@ -66,9 +66,9 @@ namespace WiseThink.NTCA.BAL
              });
             }
 
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                throw;
             }
         }
 
@@ -642,7 +642,7 @@ namespace WiseThink.NTCA.BAL
 
                 }
             }
-            catch (Exception ex) { }
+            catch { }
 
         }
 

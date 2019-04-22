@@ -257,3 +257,40 @@ D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseT
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\obj\Release\WiseThink.NTCA.Web.csproj.GenerateResource.cache
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\obj\Release\WiseThink.NTCA.Web.dll
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\obj\Release\WiseThink.NTCA.Web.pdb
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\WiseThink.NTCA.Web.dll.config
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\WiseThink.NTCA.Web.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\WiseThink.NTCA.Web.pdb
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\log4net.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Newtonsoft.Json.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Notifications.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\WiseThink.NTCA.BAL.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\WiseThink.NTCA.DataEntity.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\WiseThink.Scheduler.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\WiseThink.NTCA.DAL.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Quartz.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Common.Logging.Core.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Common.Logging.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\WiseThink.NTCA.BAL.pdb
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\WiseThink.NTCA.DataEntity.pdb
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\WiseThink.Scheduler.pdb
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Notifications.pdb
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\log4net.xml
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\WiseThink.NTCA.DAL.pdb
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Quartz.pdb
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Quartz.xml
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Common.Logging.Core.pdb
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Common.Logging.Core.xml
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Common.Logging.pdb
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Common.Logging.xml
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\obj\Release\WiseThink.NTCA.Web.csprojResolveAssemblyReference.cache
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\obj\Release\WiseThink.NTCA.Web.Properties.Resources.resources
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\obj\Release\WiseThink.NTCA.Web.csproj.GenerateResource.Cache
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\obj\Release\WiseThink.NTCA.Web.dll
+D:\NTCA\WiseThink.NTCA.Web\WiseThink.NTCA.Web\obj\Release\WiseThink.NTCA.Web.pdb

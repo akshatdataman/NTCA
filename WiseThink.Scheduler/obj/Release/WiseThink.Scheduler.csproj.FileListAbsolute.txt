@@ -229,3 +229,36 @@ D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseT
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.Scheduler\obj\Release\WiseThink.Scheduler.csprojResolveAssemblyReference.cache
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.Scheduler\obj\Release\WiseThink.Scheduler.dll
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.Scheduler\obj\Release\WiseThink.Scheduler.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Release\WiseThink.Scheduler.dll
+D:\NTCA\WiseThink.Scheduler\bin\Release\WiseThink.Scheduler.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Release\Common.Logging.Core.dll
+D:\NTCA\WiseThink.Scheduler\bin\Release\Common.Logging.dll
+D:\NTCA\WiseThink.Scheduler\bin\Release\Notifications.dll
+D:\NTCA\WiseThink.Scheduler\bin\Release\Quartz.dll
+D:\NTCA\WiseThink.Scheduler\bin\Release\WiseThink.NTCA.BAL.dll
+D:\NTCA\WiseThink.Scheduler\bin\Release\WiseThink.NTCA.DataEntity.dll
+D:\NTCA\WiseThink.Scheduler\bin\Release\WiseThink.NTCA.DAL.dll
+D:\NTCA\WiseThink.Scheduler\bin\Release\itextsharp.dll
+D:\NTCA\WiseThink.Scheduler\bin\Release\log4net.dll
+D:\NTCA\WiseThink.Scheduler\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\NTCA\WiseThink.Scheduler\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\NTCA\WiseThink.Scheduler\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+D:\NTCA\WiseThink.Scheduler\bin\Release\WiseThink.NTCA.BAL.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Release\WiseThink.NTCA.DataEntity.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Release\Notifications.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Release\Common.Logging.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Release\Common.Logging.xml
+D:\NTCA\WiseThink.Scheduler\bin\Release\Common.Logging.Core.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Release\Common.Logging.Core.xml
+D:\NTCA\WiseThink.Scheduler\bin\Release\Quartz.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Release\Quartz.xml
+D:\NTCA\WiseThink.Scheduler\bin\Release\WiseThink.NTCA.DAL.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Release\itextsharp.xml
+D:\NTCA\WiseThink.Scheduler\bin\Release\log4net.xml
+D:\NTCA\WiseThink.Scheduler\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\NTCA\WiseThink.Scheduler\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\NTCA\WiseThink.Scheduler\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\NTCA\WiseThink.Scheduler\obj\Release\WiseThink.Scheduler.csprojResolveAssemblyReference.cache
+D:\NTCA\WiseThink.Scheduler\obj\Release\WiseThink.Scheduler.dll
+D:\NTCA\WiseThink.Scheduler\obj\Release\WiseThink.Scheduler.pdb

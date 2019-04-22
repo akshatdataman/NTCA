@@ -196,3 +196,16 @@ D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseT
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\bin\Debug\log4net.xml
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\obj\Debug\WiseThink.NTCA.DataEntity.dll
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.DataEntity\obj\Debug\WiseThink.NTCA.DataEntity.pdb
+D:\NTCA\WiseThink.NTCA.DataEntity\bin\Debug\WiseThink.NTCA.DataEntity.dll
+D:\NTCA\WiseThink.NTCA.DataEntity\bin\Debug\WiseThink.NTCA.DataEntity.pdb
+D:\NTCA\WiseThink.NTCA.DataEntity\bin\Debug\AntiXssLibrary.dll
+D:\NTCA\WiseThink.NTCA.DataEntity\bin\Debug\HtmlSanitizationLibrary.dll
+D:\NTCA\WiseThink.NTCA.DataEntity\bin\Debug\itextsharp.dll
+D:\NTCA\WiseThink.NTCA.DataEntity\bin\Debug\log4net.dll
+D:\NTCA\WiseThink.NTCA.DataEntity\bin\Debug\AntiXssLibrary.xml
+D:\NTCA\WiseThink.NTCA.DataEntity\bin\Debug\HtmlSanitizationLibrary.xml
+D:\NTCA\WiseThink.NTCA.DataEntity\bin\Debug\itextsharp.xml
+D:\NTCA\WiseThink.NTCA.DataEntity\bin\Debug\log4net.xml
+D:\NTCA\WiseThink.NTCA.DataEntity\obj\Debug\WiseThink.NTCA.DataEntity.csprojResolveAssemblyReference.cache
+D:\NTCA\WiseThink.NTCA.DataEntity\obj\Debug\WiseThink.NTCA.DataEntity.dll
+D:\NTCA\WiseThink.NTCA.DataEntity\obj\Debug\WiseThink.NTCA.DataEntity.pdb

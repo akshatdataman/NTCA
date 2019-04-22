@@ -1012,14 +1012,16 @@ $(document).ready(function () {
 /*This fuction is used to validate the complete form in single button*/
 function validation() {
     BindValidationMethod();
-    var prm = Sys.WebForms.PageRequestManager.getInstance();
-    if (prm != null) {
-        prm.add_endRequest(function (sender, e) {
-            if (sender._postBackSettings.panelsToUpdate != null) {
-                BindValidationMethod();
+    if (typeof (Sys) !== 'undefined') {
+        var prm = Sys.WebForms.PageRequestManager.getInstance();
+        if (prm != null) {
+            prm.add_endRequest(function (sender, e) {
+                if (sender._postBackSettings.panelsToUpdate != null) {
+                    BindValidationMethod();
 
-            }
-        });
+                }
+            });
+        }
     }
 }
 

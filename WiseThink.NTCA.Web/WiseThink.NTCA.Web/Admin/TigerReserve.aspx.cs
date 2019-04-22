@@ -19,7 +19,7 @@ namespace WiseThink.NTCA.Web.Admin
                 GetTigerReserveList();
                 if (Session["TigerReserveId"] != null && Convert.ToString(Session["Updatebtn"]) == "1")
                 {
-                    string strSuccess = "User has been updated successfully.";
+                    //string strSuccess = "User has been updated successfully.";
                     //vmSuccess.Message = strSuccess;
                     //FlashMessage.ErrorMessage(vmSuccess.Message);
                     Session.Remove("TigerReserveId");

@@ -57,7 +57,7 @@ namespace WiseThink.Scheduler
                     }
                 }
             }
-            catch (Exception ex)
+            catch
             {
                 return;
             }

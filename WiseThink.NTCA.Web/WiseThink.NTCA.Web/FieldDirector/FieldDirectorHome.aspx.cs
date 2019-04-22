@@ -188,14 +188,14 @@ namespace WiseThink.NTCA.Web.FieldDirector
                     LinkButton lnkEdit = (LinkButton)e.CommandSource;
                     string APOFileId = lnkEdit.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/FieldDirector/SubmitAPONew.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/FieldDirector/SubmitAPONew.aspx", false));
                     break;
             }
             switch (e.CommandName)
             {
                 case "EditAdditional":
                     Session["IsEdit"] = true;
-                    Response.Redirect(string.Format("~/FieldDirector/AdditionalAPO.aspx?Edit=True", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/FieldDirector/AdditionalAPO.aspx?Edit=True", false));
                     break;
             }
             switch (e.CommandName)
@@ -204,14 +204,14 @@ namespace WiseThink.NTCA.Web.FieldDirector
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/FieldDirector/FDUtilizationCertificate.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/FieldDirector/FDUtilizationCertificate.aspx", false));
                     break;
             }
             switch (e.CommandName)
             {
                 case "Submit":
                     //Session["IsEdit"] = true;
-                    Response.Redirect(string.Format("~/FieldDirector/ObligationFD.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/FieldDirector/ObligationFD.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -220,7 +220,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/FieldDirector/ViewTigerReserveDetails.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/FieldDirector/ViewTigerReserveDetails.aspx", false));
                     break;
             }
             //switch (e.CommandName)
@@ -483,14 +483,14 @@ namespace WiseThink.NTCA.Web.FieldDirector
             {
                 case "Edit":
                     Session["IsEdit"] = true;
-                    Response.Redirect(string.Format("~/FieldDirector/SubmitQuarterlyReport.aspx?Edit=True", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/FieldDirector/SubmitQuarterlyReport.aspx?Edit=True", false));
                     break;
             }
             switch (e.CommandName)
             {
                 case "Submit":
                     //Session["IsEdit"] = true;
-                    Response.Redirect(string.Format("~/FieldDirector/ObligationFD.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/FieldDirector/ObligationFD.aspx", false));
                     break;
             }
             GetAlerts();
@@ -514,14 +514,14 @@ namespace WiseThink.NTCA.Web.FieldDirector
             {
                 case "Edit":
                     Session["IsEdit"] = true;
-                    Response.Redirect(string.Format("~/FieldDirector/SubmitAPONew.aspx?Edit=True", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/FieldDirector/SubmitAPONew.aspx?Edit=True", false));
                     break;
             }
             switch (e.CommandName)
             {
                 case "EditAdditional":
                     Session["IsEdit"] = true;
-                    Response.Redirect(string.Format("~/FieldDirector/AdditionalAPO.aspx?Edit=True", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/FieldDirector/AdditionalAPO.aspx?Edit=True", false));
                     break;
             }
             switch (e.CommandName)
@@ -530,14 +530,14 @@ namespace WiseThink.NTCA.Web.FieldDirector
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/FieldDirector/FDUtilizationCertificate.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/FieldDirector/FDUtilizationCertificate.aspx", false));
                     break;
             }
             switch (e.CommandName)
             {
                 case "Submit":
                     //Session["IsEdit"] = true;
-                    Response.Redirect(string.Format("~/FieldDirector/ObligationFD.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/FieldDirector/ObligationFD.aspx", false));
                     break;
             }
             switch (e.CommandName)
@@ -546,7 +546,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                     LinkButton lnkView = (LinkButton)e.CommandSource;
                     string APOFileId = lnkView.CommandArgument;
                     Session["APOFileId"] = APOFileId;
-                    Response.Redirect(string.Format("~/FieldDirector/ViewTigerReserveDetails.aspx", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/FieldDirector/ViewTigerReserveDetails.aspx", false));
                     break;
             }
             GetAlerts();

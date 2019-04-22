@@ -334,9 +334,9 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                                 if (bytes[0] == 37 && bytes[1] == 80)
                                 {
                                     fs.Close();
-                                    br.Close();
-                                    fs.Dispose();
-                                    br.Dispose();
+                                    //br.Close();
+                                    //fs.Dispose();
+                                    //br.Dispose();
                                     fuUploadFinalUC.PostedFile.InputStream.Close();
                                     bytes = null;
 
@@ -378,9 +378,9 @@ namespace WiseThink.NTCA.Web.NTCA_RO
                                 if (bytes[0] == 37 && bytes[1] == 80)
                                 {
                                     fs.Close();
-                                    br.Close();
-                                    fs.Dispose();
-                                    br.Dispose();
+                                    //br.Close();
+                                    //fs.Dispose();
+                                    //br.Dispose();
                                     fuUploadFinalUC.PostedFile.InputStream.Close();
                                     bytes = null;
 

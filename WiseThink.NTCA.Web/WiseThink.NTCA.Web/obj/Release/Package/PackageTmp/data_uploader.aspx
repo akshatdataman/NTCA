@@ -7,11 +7,5 @@
     <title></title>
     <script src="../js/NTCA.js" type="text/javascript"></script>
 </head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    
-    </div>
-    </form>
-</body>
+    <body></body>
 </html>

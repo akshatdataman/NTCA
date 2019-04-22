@@ -46,7 +46,7 @@ namespace WiseThink.NTCA.Web.NTCA_RO
             {
                 case "Edit":
                     Session["IsEdit"] = true;
-                    Response.Redirect(string.Format("~/NTCA-RO/EditApoCopy.aspx?Edit=True", false));
+                    Response.Redirect(string.Format("{0}: {1}", "~/NTCA-RO/EditApoCopy.aspx?Edit=True", false));
                     break;
             }
             switch (e.CommandName)

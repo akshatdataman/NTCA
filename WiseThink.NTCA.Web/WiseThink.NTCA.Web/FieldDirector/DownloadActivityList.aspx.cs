@@ -62,7 +62,7 @@ namespace WiseThink.NTCA.Web.FieldDirector
                 Response.Write(sw.ToString());
                 Response.End();
             }
-            catch (Exception ex)
+            catch
             {
                 return;
             }

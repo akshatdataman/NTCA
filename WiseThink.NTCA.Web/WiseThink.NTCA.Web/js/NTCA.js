@@ -38,18 +38,15 @@ function ManageActivity() {
     });
 }
 
-function ShowAlertFile()
-{
+function ShowAlertFile() {
     alert('Invalid File');
 }
 
-function ShowAlertFileExtension()
-{
+function ShowAlertFileExtension() {
     alert('Invalid File Extension found');
 }
 
-function LoadUCPage()
-{
+function LoadUCPage() {
     window.location.reload();
 }
 
@@ -197,9 +194,8 @@ window.onbeforeunload = function (event) {
     setInterval(3000);
 };
 
-$(window).load(function () {
+$(window).on('load', function () {
     $.unblockUI();
-    //window.onbeforeunload = $(window).data('beforeunload'); 
 });
 
 $(document).load(function () {
@@ -486,31 +482,37 @@ function AddAPOSubItem(lnk, grid_view, Area_Id, ActivityType_Id, CallType) {
 }
 
 function sendFile(file) {
-   
+
     var formData = new FormData();
     formData.append('file', file);
 
     $.ajax({
         type: 'POST',
         // url: '../uploader.ashx',
-       url:'../data_uploader.aspx',
-       data:formData,
-       success: function (status) {
-           console.log(status)
-                   },
+        url: '../DataUploader.asmx/FileUpload',
+        data: formData,
         processData: false,
-        contentType: false,
+        contentType:false,
+        dataType: 'text',
+        success: function (status) {
+            //console.log(status)
+            $strData = status
+            $out = $strData.replace('<?xml version="1.0" encoding="utf-8"?>', "")
+            $out = $out.replace('<string xmlns="http://tempuri.org/">', "")
+            $out = $out.replace('</string>', "")
+            alert($out)
+        },
         error: function () {
-            alert("Whoops something went wrong!");
-        }
+            alert('Whoops something went wrong!')
+        },
     });
 }
 
 function previewFile(ele) {
     var file;
-   var fl = ele.files[0];
-   
-   sendFile(fl);
+    var fl = ele.files[0];
+
+    sendFile(fl);
 }
 
 function DeleteAPOSubItems(lnk, grid_view, Area_Id, ActivityType_Id, CallType) {

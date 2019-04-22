@@ -58,21 +58,31 @@ namespace WiseThink.NTCA.Web
                 try
                 {
                     // Create the streams used for decryption.
-                    using (var msDecrypt = new MemoryStream(cipherText))
+                    var msDecrypt = new MemoryStream(cipherText);
+                    var csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read);
+                    using (var srDecrypt = new StreamReader(csDecrypt))
                     {
-                        using (var csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read))
-                        {
+                        // Read the decrypted bytes from the decrypting stream
+                        // and place them in a string.
+                        plaintext = srDecrypt.ReadToEnd();
 
-                            using (var srDecrypt = new StreamReader(csDecrypt))
-                            {
-                                // Read the decrypted bytes from the decrypting stream
-                                // and place them in a string.
-                                plaintext = srDecrypt.ReadToEnd();
-
-                            }
-
-                        }
                     }
+                    // Create the streams used for decryption.
+                    //using (var msDecrypt = new MemoryStream(cipherText))
+                    //{
+                    //    using (var csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read))
+                    //    {
+
+                    //        using (var srDecrypt = new StreamReader(csDecrypt))
+                    //        {
+                    //            // Read the decrypted bytes from the decrypting stream
+                    //            // and place them in a string.
+                    //            plaintext = srDecrypt.ReadToEnd();
+
+                    //        }
+
+                    //    }
+                    //}
                 }
                 catch
                 {
@@ -116,18 +126,26 @@ namespace WiseThink.NTCA.Web
                 var encryptor = rijAlg.CreateEncryptor(rijAlg.Key, rijAlg.IV);
 
                 // Create the streams used for encryption.
-                using (var msEncrypt = new MemoryStream())
+                var msEncrypt = new MemoryStream();
+                var csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write);
+                using (var swEncrypt = new StreamWriter(csEncrypt))
                 {
-                    using (var csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
-                    {
-                        using (var swEncrypt = new StreamWriter(csEncrypt))
-                        {
-                            //Write all data to the stream.
-                            swEncrypt.Write(plainText);
-                        }
-                        encrypted = msEncrypt.ToArray();
-                    }
+                    //Write all data to the stream.
+                    swEncrypt.Write(plainText);
                 }
+                encrypted = msEncrypt.ToArray();
+                //using (var msEncrypt = new MemoryStream())
+                //{
+                //    using (var csEncrypt = new CryptoStream(msEncrypt, encryptor, CryptoStreamMode.Write))
+                //    {
+                //        using (var swEncrypt = new StreamWriter(csEncrypt))
+                //        {
+                //            //Write all data to the stream.
+                //            swEncrypt.Write(plainText);
+                //        }
+                //        encrypted = msEncrypt.ToArray();
+                //    }
+                //}
             }
 
             // Return the encrypted bytes from the memory stream.

@@ -61,3 +61,7 @@ D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseT
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.Web\Notifications\bin\Debug\Notifications.pdb
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.Web\Notifications\obj\Debug\Notifications.dll
 D:\New Audit Points 06-03-2018\New Audit Points 06-03-2018\10-05-2018 NTCA\WiseThink.NTCA.Web\Notifications\obj\Debug\Notifications.pdb
+D:\NTCA\WiseThink.NTCA.Web\Notifications\bin\Debug\Notifications.dll
+D:\NTCA\WiseThink.NTCA.Web\Notifications\bin\Debug\Notifications.pdb
+D:\NTCA\WiseThink.NTCA.Web\Notifications\obj\Debug\Notifications.dll
+D:\NTCA\WiseThink.NTCA.Web\Notifications\obj\Debug\Notifications.pdb

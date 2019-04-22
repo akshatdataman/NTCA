@@ -1416,7 +1416,7 @@ namespace WiseThink.NTCA.Web.CWW_Secretary
                 string strgps = gps.Text;
                 APOBAL.Instance.UpdateGPS(_gpsId, oApo.TigerReserveId, activityItemId, strgps);
                 cgvGps.EditIndex = -1;
-                string strSuccess = "GPS has been updated successfully.";
+                //string strSuccess = "GPS has been updated successfully.";
                 GetGPSDetails(oApo.TigerReserveId, Convert.ToInt32(activityItemId));
             }
             catch (Exception ex)
